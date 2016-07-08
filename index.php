@@ -29,7 +29,8 @@
         <meta name="twitter:domain" content="">
         <link rel="icon" type="image/png" href="img/favicon.png" />
         <link rel="canonical" href=""/> 
-        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'> -->
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/main.css">
         <!-- Google Tag Manager -->
         <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WX3C4Q"
@@ -69,40 +70,72 @@
 
                     <!-- make-experience: -->
                     <section class="container" id="make-experience">
-                        <div class="row-fluid">
+                        
+                        <div class="row-fluid head-line">
                             <p class="text-default">PROJETOS INOVADORES E ESTRTÉGICOS</p>
                             <h2 class="title-section">Experiências que criamos </br>com nossos clientes</h2>
-
                         </div>
+
                         <div class="row-fluid">
-                            <div class="col col-md-6">
-                                
-                            <div class="col col-md-6">
-                                
+
+                            <div class="col col-md-8">
+                                <img src="img/destaque-cases.png" alt="Projetos em destaque HandMade UX" width="740" height="625">
                             </div>
+
+                            <div class="col col-md-4">
+                                <div class="description-case">
+                                    <p class="default-text case-client-name">OPTIMA</p>
+                                    <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
+                                    <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
+                                    <a href="#" class="cta" title="Ver Projeto"> VER PROJETO</a>
+                                </div>
+                            </div>
+
                         </div>
                     </section>
                     <!-- :make-experience -->
 
                     <!-- case-1: -->
                     <section class="container" id="case-1">
-                        <div class="row-fluid">
+                        <div class="row-fluid no-padding">
                             
-                                
+                            <div class="col col-md-6">
+                                <div class="description-case">
+                                    <p class="default-text case-client-name">OPTIMA</p>
+                                    <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
+                                    <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
+                                    <a href="#" class="cta" title="Ver Projeto"> VER PROJETO</a>
+                                </div>
                             </div>
+
+                            <div class="col col-md-6">
+                                <div class="frame-video-case-leve-me">
+                                    
+                                </div>
+                            </div>
+                           
                         </div>
                     </section>
                     <!-- :case-1 -->
 
                     <!-- case-2: -->
                     <section class="container" id="case-2">
-                        <div class="row-fluid">
-                            <div class="col col-md-6">
-                                
-                            <div class="col col-md-6">
-                                
+                        
+                        <div class="row">
+                            <div class="description-case">
+                                <p class="default-text case-client-name">BROOU</p>
+                                <h3 class="case-project-name">Mobile App & Wearable</h3>
+                                <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
+                                <div class="box-cta">
+                                    <a href="#" class="cta cta-dark" title="Ver Projeto">VER PROJETO</a>
+                                </div>
                             </div>
                         </div>
+
+                        <div class="row">
+                            <img src="img/app-broou-iphone.png" class="img-case-broou" alt="Projetos em destaque HandMade UX" width="470" height="324">
+                        </div>
+
                     </section>
                     <!-- :case-2 -->
 
