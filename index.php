@@ -56,9 +56,9 @@
                         </div>
 
                         <div class="feature">
-                            <h2 class="feature-text"><small>Design Your Life</small></h2>
-                            <h2 class="feature-text">Criamos Experiências Incríveis Juntos</h2>
-                            <p class="feature-text feature-text-paragraph">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
+                            <h2 class="feature-text text-white"><small>Design Your Life</small></h2>
+                            <h2 class="feature-text text-white">Criamos Experiências Incríveis Juntos</h2>
+                            <p class="feature-text feature-text-paragraph text-white">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
                             <div class="box-cta">
                                 <a href="#" class="feature-cta" title="Verja Mais">VER MAIS</a>
                             </div>
@@ -121,7 +121,7 @@
                     <!-- case-2: -->
                     <section class="container" id="case-2">
                         
-                        <div class="row">
+                        <div class="row-fluid">
                             <div class="description-case">
                                 <p class="default-text case-client-name">BROOU</p>
                                 <h3 class="case-project-name">Mobile App & Wearable</h3>
@@ -132,7 +132,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row-fluid p-absolute no-padding">
                             <img src="img/app-broou-iphone.png" class="img-case-broou" alt="Projetos em destaque HandMade UX" width="470" height="324">
                         </div>
 
@@ -141,10 +141,27 @@
 
                     <!-- clientes: -->
                     <section class="container" id="clientes">
-                        <div class="row-fluid">
-                            <div class="col col-md-6">
-                                
-                            <div class="col col-md-6">
+                        <div class="row">
+                            <p class="default-text">CLIENTES</p>
+
+                            <ul class="client-list">
+                                <li class="client-list-item">
+                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                </li>
+                                <li class="client-list-item">
+                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                </li>
+                                <li class="client-list-item">
+                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                </li>
+                                <li class="client-list-item">
+                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                </li>
+                                <li class="client-list-item">
+                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                </li>
+
+                            </ul>
                                 
                             </div>
                         </div>
@@ -152,11 +169,8 @@
                     <!-- :clientes -->
 
                     <!-- semana-1: -->
-                    <section class="container" id="case-2">
+                    <section class="container" id="semana-1">
                         <div class="row-fluid">
-                            <div class="col col-md-6">
-                                
-                            <div class="col col-md-6">
                                 
                             </div>
                         </div>
@@ -190,11 +204,21 @@
                     <!-- case-2: -->
                     <section class="container" id="design-conections">
                         <div class="row-fluid">
+
                             <div class="col col-md-6">
-                                
-                            <div class="col col-md-6">
-                                
+                                <h2 class="conections-title text-white">DESIGN </br>CON-NECTIONS <small>MR</small></h2>
                             </div>
+
+                             <div class="col col-md-6">
+                                <div class="description-case">
+                                    
+                                    <h3 class="case-project-name text-white">O Design como vamtagem competitiva</h3>
+                                    <p class="default-text case-text-description text-white">Muito mais que um novo produto ou uma nova plataforma, inovação está cada vez mais relacionada ao processo. E o que o design te a ver co misso?</p>
+                                    <a href="#" class="cta" title="Ler Mais">LER MAIS</a>
+                                    <a href="#" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
+                                </div>
+                            </div>
+                            
                         </div>
                     </section>
                     <!-- :case-2 -->

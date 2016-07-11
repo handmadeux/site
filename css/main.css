@@ -84,16 +84,9 @@ a{
 	font-weight:300;
 	color: #6d6d6d
 }
-.text-withe{color: #fff}
-.text-black{color: #222}
-.pull-left{float: left;text-align: left;}
-.pull-right{float: right;text-align: right;}
-.link-default{color: #2B2B23}
-.link-default:hover{color: #B7860B}
 
 #header{
 	height: 770px;
-	background: #222;
 	/*background-repeat: no-repeat;
 	background-size: cover;
 	-webkit-background-size:cover;
@@ -126,16 +119,16 @@ a{
 	float: left;
 	width: 100%;
 	margin-top:100px;
-	display: block
+	display: block;
 }
 .feature-text{
-	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 56px;
 	width: 100%;
 	text-align: center;
 	font-weight: 300;
-	line-height: 160%
+	line-height: 160%;
+	text-shadow: 0 1px 1px  rgba(22, 22, 22, 0.7);
 }
 .feature-text small{
 	font-size: 32px
@@ -177,17 +170,41 @@ a{
 	background: #262626;
 	margin: 0 auto
 }
+.cta-play-video{
+	background: none;
+	color: #76d1de;
+	width: 200px;
+	padding: 15px 0;
+}
+.cta-play-video span{
+	width: 30px;
+	height:30px;
+	border-radius: 50%; 
+	border: solid 1px #76d1de;
+	float: right;
+	margin: -3px 0 0 0;
+}
+.arrow-right{
+	width: 0;
+	height: 0;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+	border-left: 8px solid #76d1de;
+	border-right: 0 solid transparent;
+	float: left;
+	margin: 7px 0 0 11px;
+}
 .feature-cta:hover, .cta:hover, .cta-dark:hover{
 	opacity:0.7
 }
 #make-experience{
-	height: 920px
+	height: 920px;
+	background: #fff;
 }
 #make-experience .head-line p, #make-experience .head-line h2{
 	text-align: center
 }
 .description-case{
-	float: left;
 	padding: 15px;
 	width: 80%;
 	margin: 40px 0 0 0
@@ -196,7 +213,6 @@ a{
 	margin-bottom: 20px;
 }
 .case-project-name{
-	color: #76d1de;
 	font-size: 32px;
 	font-weight: 200;
 	margin-bottom: 20px
@@ -242,11 +258,13 @@ a{
 	height: 720px;
 
 }
+#case-2 .p-absolute{
+	position: absolute;
+	bottom: 0
+}
 .img-case-broou{
 	display: block;
-	position: relative;
-	bottom: 0;
-	left: 25%
+	margin: 0 auto;
 }
 
 #case-2 .description-case{
@@ -259,14 +277,32 @@ a{
 	color: #ffffff;
 	text-align: center;
 }
-
+#case-2 .cta{
+	margin-top: 40px
+}
 
 #clientes{
 	background: #eeeeee;
 	height: 400px
 }
+#clientes .default-text{
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin: 40px 0
+}
+.client-list{
+	float: left;
+	width: 100%;
+	margin: 20px 0;
+	padding: 0 40px
+}
+.client-list-item{
+	float: left;
+	margin: 20px;
+}
 #semana-1{
-	background: #13b7e9;
+	background: #ffffff;
 	height: 800px
 }
 #semana-2{
@@ -278,8 +314,32 @@ a{
 	height: 500px
 }
 #design-conections{
-	background: #e1ce4a;
+	background: #333 url('../img/bg-conections.jpg');
+	background-size: cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size: cover;
 	height: 600px
+}
+.conections-title{
+	font-size: 50px;
+	font-weight: 600;
+	line-height: 100%;
+	padding: 10%;
+	float: left
+}
+.conections-title small{
+	font-size: 18px;
+	line-height: 160%;
+	float: right
+
+}
+#design-conections .description-case{
+	margin-top: 100px;
+}
+#design-conections .cta{
+	float: left;
+	margin: 0 20px 0 0 
 }
 #idealizadores{
 	background: #ffffff;
@@ -293,9 +353,19 @@ a{
 	background: #fff;
 	height: 300px
 }
+
+/*defaults*/
+.text-white{color: #fff !important}
+.text-black{color: #222}
+.text-blue{color: #76d1de}
+.pull-left{float: left;text-align: left;}
+.pull-right{float: right;text-align: right;}
+.link-default{color: #2B2B23}
+.link-default:hover{color: #B7860B}
+
 @media only screen and (max-width: 680px) {
 	.row-fluid{
-		width: 90%;
+		
 	}
 	.col-md-6{
 		width: 100%;
@@ -312,6 +382,16 @@ a{
 	.col-md-3{
 		width: 100%;
 		float: left;
+	}
+	.brand{
+		margin: 20px auto;
+		float: none;
+	}
+	.top-nav{
+		display: none;
+	}
+	.feature{
+		padding: 15px 
 	}
 	#make-experience, #case-1, #case-2, #case-3{
 	height: auto !important;
