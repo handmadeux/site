@@ -342,8 +342,9 @@ h1, h2, h3{
 	margin: 20px;
 }
 #metodo{
-	height: 600px;
-	background: #ffffff
+	height: auto;
+	background: #ffffff;
+	padding-bottom: 40px
 }
 #metodo .head-line p, #metodo .head-line h2{
 	text-align: center;
@@ -353,6 +354,7 @@ h1, h2, h3{
 	height: 240px;
 	float: right;
 	background: #e2e2e7;
+	margin-top: 100px; 
 }
 .metodo-list{
 	float: left;
