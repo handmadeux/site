@@ -209,9 +209,10 @@
                                     <li>Custo previsível</li>
                                     <li>Estrutura necessária previsível</li>
                                     <li>Etapas de aprovação eliminadas</li>
-                                    <li>Quantidade garantida pela validação com usuários reais e equipe 100% sênior com dedicação exclusiva</li>
+                                    <li>Quantidade garantida pela validação com usuários reais </br>e equipe 100% sênior com dedicação exclusiva</li>
                                     <li>Resultados 100% mensuráveis</li>
                                 </ul>
+                                <a href="#" class="cta">saiba mais</a>
                             </div>
                         </div>
 

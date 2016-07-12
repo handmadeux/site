@@ -356,15 +356,22 @@ h1, h2, h3{
 }
 .metodo-list{
 	float: left;
-	width: 100%
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 0 10%;
 }
 .metodo-list li{
-	font-size: 22px;
-	color: #333;
+	font-size: 14px;
+	color: #9797a3;
 	text-transform: uppercase;;
 	width: 100%;
 	line-height: 130%;
 	list-style-image: url('../img/check.png');
+	margin-bottom: 20px;
+}
+#metodo .cta{
+	float: left;
+	margin-left: 50px
 }
 
 /*modal*/
