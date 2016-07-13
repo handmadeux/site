@@ -52,7 +52,28 @@
                                 <img src="img/hand-made-ux-marca.png" alt="HandMade UX" width="200" height="32">
                             </h1>
 
-                            <nav class="top-nav"></nav>
+                            <nav class="top-nav">
+                                <ul class="top-nav-menu">
+                                    <li class="top-nav-item">
+                                        <a href="#" title="Clienets">Clientes</a>
+                                    </li>
+                                    <li class="top-nav-item">
+                                        <a href="#" title="Método">Método</a>
+                                    </li>
+                                    <li class="top-nav-item">
+                                        <a href="#" title="Con-Nections">Con - Nections</a>
+                                    </li>
+                                    <li class="top-nav-item">
+                                        <a href="#" title="Quem Somos">Quem Somos</a>
+                                    </li>
+                                    <li class="top-nav-item">
+                                        <a href="#" title="Contato">Contato</a>
+                                    </li>
+                                    <li class="top-nav-item">
+                                        <a href="#" title="Projetos" class="top-nav-cta">Projetos</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
 
                         <div class="feature">
@@ -133,7 +154,7 @@
                         </div>
 
                         <div class="row-fluid p-absolute no-padding">
-                            <img src="img/app-broou-iphone.png" class="img-case-broou" alt="Projetos em destaque HandMade UX" width="470" height="324">
+                            <img src="img/app-broou-iphone.png" class="img-case-broou" alt="Projetos App Broou" width="470" height="328">
                         </div>
 
                     </section>
@@ -176,28 +197,6 @@
                             <h2 class="title-section">Estratégia e design mobile</br> em 15 dias</h2>
                         </div>
 
-                           <!-- <div class="box-cta">
-                                <a id="demo01" href="#animatedModal" class="feature-cta" title="Verja Mais">VER MODAL</a>
-                            </div>
-
-                            <div class="time-line">
-                                <ol class="sprint-time-line">
-                                    <li class="list-card">
-                                        <header>
-                                            <h3>Header Card</h3>
-                                            <div class="conector-cart">
-                                                <span>
-                                                    <i></i>
-                                                </span>
-                                            </div>
-                                        </header>
-                                        <content>
-                                            <img src="http://placehold.it/320x180" alt="Titulo Imagem">
-                                            <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
-                                        </content>
-                                    </li>
-                                </ol>
-                            </div> -->
                             
                         <div class="row-fluid">
                             <div class="col col-md-6">
@@ -212,7 +211,7 @@
                                     <li>Quantidade garantida pela validação com usuários reais </br>e equipe 100% sênior com dedicação exclusiva</li>
                                     <li>Resultados 100% mensuráveis</li>
                                 </ul>
-                                <a href="#" class="cta">saiba mais</a>
+                                <a id="demo01" href="#animatedModal" class="cta">saiba mais</a>
                             </div>
                         </div>
 
@@ -231,6 +230,79 @@
                             <section class="container" id="semana-1">
                                 <div class="row-fluid">
 
+                                    <div class="time-line">
+                                     
+                                        <div class="row-fluid head-line">
+                                            <p class="text-default">MÉTODO</p>
+                                            <h2 class="">Semana 1</h2>
+                                            <p class="">Imersão, coleta de dados e entendimento do projeto</p>
+                                        </div>
+
+                                        <ol class="sprint-time-line center-line">
+
+                                            <li class="list-card card-right" id="card-1">
+                                                <header>
+                                                    <h3>Sprint Leader</h3>
+                                                    <div class="conector-cart">
+                                                        <span>
+                                                            <i></i>
+                                                        </span>
+                                                    </div>
+                                                </header>
+                                                <content>
+                                                    <img src="http://placehold.it/320x180" alt="Titulo Imagem">
+                                                    <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
+                                                </content>
+                                            </li>
+
+                                            <li class="list-card " id="card-2">
+                                                <header>
+                                                    <h3>Inteligência de Dados - BI</h3>
+                                                    <div class="conector-cart">
+                                                        <span>
+                                                            <i></i>
+                                                        </span>
+                                                    </div>
+                                                </header>
+                                                <content>
+                                                    <img src="http://placehold.it/320x180" alt="Titulo Imagem">
+                                                    <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
+                                                </content>
+                                            </li>
+
+                                            <li class="list-card card-right" id="card-3">
+                                                <header>
+                                                    <h3>UI/UX Designer</h3>
+                                                    <div class="conector-cart">
+                                                        <span>
+                                                            <i></i>
+                                                        </span>
+                                                    </div>
+                                                </header>
+                                                <content>
+                                                    <img src="http://placehold.it/320x180" alt="Titulo Imagem">
+                                                    <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
+                                                </content>
+                                            </li>
+
+                                            <li class="list-card" id="card-4">
+                                                <header>
+                                                    <h3>User Research</h3>
+                                                    <div class="conector-cart">
+                                                        <span>
+                                                            <i></i>
+                                                        </span>
+                                                    </div>
+                                                </header>
+                                                <content>
+                                                    <img src="http://placehold.it/320x180" alt="Titulo Imagem">
+                                                    <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
+                                                </content>
+                                            </li>
+
+                                        </ol>
+                                    </div>
+                                
                                 </div>
                             </section>
                             <!-- :semana-1 -->
@@ -289,7 +361,7 @@
                             
                             <div class="idealizador">
                                 <div class="col col-md-6 idealizador-img">
-                                    <img class="pull-right" src="img/luis-felipe-fernandes.jpg" alt="Foto de Luis Felipe Fernandes">
+                                    <img class="pull-right" src="img/luis-felipe-fernandes.jpg" alt="Foto de Luis Felipe Fernandes" width="370" height="370">
                                 </div>
                                 
                                 <div class="col col-md-6 idealizador-info">
@@ -306,7 +378,7 @@
                                 </div>
 
                                 <div class="col col-md-6 idealizador-img">
-                                    <img class="pull-left" src="img/gustavo-burnier.jpg" alt="Foto de Gustavo Burnier">
+                                    <img class="pull-left" src="img/gustavo-burnier.jpg" alt="Foto de Gustavo Burnier" width="370" height="370">
                                 </div>
 
                             </div>
@@ -316,7 +388,7 @@
                     </section>
                     <!-- :idealizadores -->
 
-                    <!-- footer: -->
+                    <!-- contato: -->
                     <section class="container" id="contato">
                         <div class="row-fluid">
                             
@@ -341,33 +413,14 @@
 
                         </div>
                     </section>
-                    <!-- :footer -->
+                    <!-- :contato -->
                     
 
                     <!-- footer: -->
                     <section class="container" id="footer">
+                       
                         <div class="row">
-                            <img src="http://placehold.it/160x70" alt="HandMade UX" class="footer-brand">
-                            <nav class="footer-nav">
-                                <ul class="footer-nav-list">
-                                    <li class="nav-item">
-                                        <a href="#" title="">Projetos</a>
-                                    </li>
-                                     <li class="nav-item">
-                                        <a href="#" title="">O Que Fazemos</a>
-                                    </li>
-                                     <li class="nav-item">
-                                        <a href="#" title="">Método</a>
-                                    </li>
-                                     <li class="nav-item">
-                                        <a href="#" title="">Quem Somos</a>
-                                    </li>
-                                     <li class="nav-item">
-                                        <a href="#" title="">Contato</a>
-                                    </li>
-                                </ul>
-                            </nav>
-
+                            
                             <p class="default-text copyright">Copyright © 2016 HandMade UX - Todos os Direitos Reservados.</p>
 
                             <nav class="social-nav">
@@ -399,7 +452,7 @@
             //demo 02
             $("#demo01").animatedModal({
                 modalTarget:'animatedModal',
-                animatedIn:'lightSpeedIn',
+                animatedIn:'zoomIn',
                 animatedOut:'bounceOutDown',
                 color:'#eeeeee'
             });

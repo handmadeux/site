@@ -112,7 +112,7 @@ h1, h2, h3{
 	display: block;
 	font-size:0px;
 	line-height:1;
-	margin:20px 0 0 20px;
+	margin:0 0 0 30px;
 	text-indent: -9999px;
 	width: 300px;
 	height: 74px;
@@ -122,12 +122,41 @@ h1, h2, h3{
 	display: block
 }
 .top-nav{
-	width: 60px;
-	height: 60px;
-	background: #fff;
+	width: auto;
 	float: right;
-	margin: 20px;
+	margin: 0;
 	position: relative
+}
+.top-nav-menu, .social-nav{
+	float: left;
+	width: 100%;
+}
+.top-nav .top-nav-item, .social-item{
+	float: left;
+	margin: 5px;
+}
+.top-nav-item a{
+	float: left;
+	color: #fff;
+	font-size: 13px;
+	padding: 6px 10px;
+	text-transform: uppercase;
+	height: 30px;
+	transition: all ease-out 0.2s
+}
+.top-nav-item a:hover{
+	color: #f25c6a
+}
+.top-nav-cta{
+	color: #333 !important;
+	background: #fff;
+	border-radius: 50px;
+	width: 140px;
+	text-align: center;
+}
+.top-nav-cta:hover{
+	color: #fff !important;
+	background: #f25c6a
 }
 .feature{
 	float: left;
@@ -187,7 +216,7 @@ h1, h2, h3{
 	background: none;
 	color: #f25c6a;
 	width: 165px;
-	padding: 15px 0;
+	padding: 10px 0;
 	margin: 0;
 	text-align: left;
 }
@@ -313,11 +342,8 @@ h1, h2, h3{
 	color: #ffffff;
 	text-align: center;
 }
+
 #case-2 .cta{
-	
-}
-#case-2 .cta{
-	background: #262626;
 	margin: 40px auto 0 auto
 }
 #clientes{
@@ -397,34 +423,125 @@ h1, h2, h3{
 .close-animatedModal:hover{
 }
 .time-line{
-	width: 100%;
-	float: left;
+	width: 960px;
+	margin: 0 auto;
+	background: #fff;
+	position: relative;
+	height: 1020px;
 }
 .sprint-time-line{
 	display: block;
 	margin: 0 auto;
 	position: relative;
+	float: left;
+}
+.time-line .head-line p, .time-line .head-line h2{
+	background: #fff;
+	display: block;
+	z-index: 3;
+	position: relative;
+	line-height: 160%;
+	text-align: center;
+} 
+.time-line .head-line h2{
+	font-size: 24px;
 }
 .list-card{
 	width: 320px;
 	display: block;
 	position: absolute;
-	background: #888;
-	min-height: 400px
+	background: #dedede;
+	min-height: 360px;
+	left: -357px
 }
+.list-card header{
+	float: left;
+	width: 100%;
+	padding-top: 10px
+}
+.list-card h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	color: #eb005b;
+	line-height: 150%;
+	text-align: left;
+	padding: 5px 10px
+}
+.list-card p{
+	padding: 10px;
 
+}
+.conector-cart{
+	width: 50px;
+	border-top: solid 1px #dedede;
+	position: absolute;
+	right: -50px;
+	z-index: 2;
+}
+.conector-cart span{
+	background: #fff;
+	width: 25px;
+	height: 25px;
+	float: left;
+	border: solid 1px #dedede;
+	border-radius: 30px;
+	position:absolute;
+	top: -14px;
+	right: 0;
+}
+.conector-cart span i{
+	background: #eb005b;
+	width: 15px;
+	height: 15px;
+	float: left;
+	border-radius: 30px;
+	position:absolute;
+	top: 4px;
+	right: 4px;
+}
+.card-right{
+	left:38px
+}
+.card-right .conector-cart{
+	right:;
+	left: -50px
+}
+.card-right .conector-cart span{
+	left: 0;
+}
+#card-1{
+	top: 150px
+}
+#card-2{
+	top: 200px
+}
+#card-3{
+	top: 550px
+}
+#card-4{
+	top: 600px
+}
+.center-line{
+	width: 1px;
+	background: #eb005b;
+	float: left;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	margin: 20px 0
+}
 
 #semana-1{
 	background: #ffffff;
-	height: 800px
+	height: auto;
 }
 #semana-2{
 	background: #82d9e5;
-	height: 800px
+	height: auto;
 }
 #semana-3{
 	background: #333a40;
-	height: 500px
+	height: auto;
 }
 #design-conections{
 	background: #333 url('../img/bg-conections.jpg');
@@ -438,7 +555,7 @@ h1, h2, h3{
 	font-size: 50px;
 	font-weight: 600;
 	line-height: 100%;
-	padding: 10%;
+	padding: 15%;
 	float: left
 }
 .conections-title small{
@@ -448,11 +565,14 @@ h1, h2, h3{
 
 }
 #design-conections .description-case{
-	margin-top: 100px;
+	margin-top: 140px;
+}
+#design-conections .case-text-description{
+	margin-bottom: 40px;
 }
 #design-conections .cta{
 	float: left;
-	margin: 0 20px 0 0 
+	margin: 0 40px 0 0 
 }
 #idealizadores{
 	background: #ffffff;
@@ -461,11 +581,12 @@ h1, h2, h3{
 }
 #idealizadores .head-line{
 	text-align: center;
+	margin-bottom: 30px;
 }
 .idealizador{
 	width: 100%;
 	float: left;
-	padding: 5% 3%;
+	padding: 2% 3%;
 }
 .idealizador-img{
 	float: left;
@@ -482,7 +603,7 @@ h1, h2, h3{
 }
 .idealizador-bio{
 	font-size: 16px;
-	line-height: 150%
+	line-height: 170%
 }
 
 #contato{
@@ -524,6 +645,7 @@ h1, h2, h3{
 #footer{
 	background: #fff;
 	height: auto;
+	padding: 20px
 }
 .footer-brand{
 	float: left;
@@ -553,7 +675,7 @@ h1, h2, h3{
 	width: 100%;
 	float: left;
 	text-align: center;
-	margin: 70px 0 15px 0
+	margin: 15px 0
 }
 .social-list{
 	display: block;
@@ -596,6 +718,7 @@ h1, h2, h3{
 	.top-nav{
 		display: none;
 	}
+
 	.feature{
 		padding: 15px 
 	}
