@@ -55,22 +55,22 @@
                             <nav class="top-nav">
                                 <ul class="top-nav-menu">
                                     <li class="top-nav-item">
-                                        <a href="#" title="Clienets">Clientes</a>
+                                        <a href="javascript:void(0);" title="Clienets" onclick="$('html,body').animate({scrollTop: $('#clientes').offset().top - 0}, 500);">Clientes</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="#" title="Método">Método</a>
+                                        <a href="javascript:void(0);" title="Método" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 0}, 500);">Método</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="#" title="Con-Nections">Con - Nections</a>
+                                        <a href="javascript:void(0);" title="Con-Nections" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 0}, 500);">Con - Nections</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="#" title="Quem Somos">Quem Somos</a>
+                                        <a href="javascript:void(0);" title="Quem Somos" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 0}, 500);">Quem Somos</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="#" title="Contato">Contato</a>
+                                        <a href="javascript:void(0);" title="Contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 0}, 500);">Contato</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="#" title="Projetos" class="top-nav-cta">Projetos</a>
+                                        <a href="javascript:void(0);" title="Projetos" class="top-nav-cta">Projetos</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -81,7 +81,7 @@
                             <h2 class="feature-text text-white">Criamos experiências</br> incríveis Juntos</h2>
                             <p class="feature-text feature-text-paragraph text-white">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
                             <div class="box-cta">
-                                <a href="#" class="feature-cta" title="Verja Mais">VER MAIS</a>
+                                <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#make-experience').offset().top - 0}, 500);" class="feature-cta" title="Verja Mais">VER MAIS</a>
                             </div>
                         </div>
 
@@ -108,7 +108,7 @@
                                     <p class="default-text case-client-name">OPTIMA</p>
                                     <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
                                     <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
-                                    <a href="#" class="cta" title="Ver Projeto"> VER PROJETO</a>
+                                    <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a>
                                 </div>
                             </div>
 
@@ -125,13 +125,16 @@
                                     <p class="default-text case-client-name">OPTIMA</p>
                                     <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
                                     <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
-                                    <a href="#" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
+                                    <a href="javascript:void(0);" class="cta cta-play-video" id="play-video-optima-1" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
                                 </div>
                             </div>
 
                             <div class="col col-md-6">
                                 <div class="frame-video-case-leve-me">
-                                    <span class="bt-play-video"><i class="arrow-right"></i></span>
+                                    <!-- video placeholder: -->
+                                    <div id="video-placeholder"></div>
+                                    <!-- video placeholder: -->
+                                    <span class="bt-play-video" id="play-video-optima-2"><i class="arrow-right"></i></span>
                                 </div>
                             </div>
                            
@@ -148,7 +151,7 @@
                                 <h3 class="case-project-name">Mobile App & Wearable</h3>
                                 <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
                                 <div class="box-cta">
-                                    <a href="#" class="cta" title="Ver Projeto">VER PROJETO</a>
+                                    <a href="javascript:void(0);" class="cta" title="Ver Projeto">VER PROJETO</a>
                                 </div>
                             </div>
                         </div>
@@ -231,7 +234,7 @@
                                 <div class="row-fluid">
 
                                     <div class="time-line">
-                                     
+
                                         <div class="row-fluid head-line">
                                             <p class="text-default">MÉTODO</p>
                                             <h2 class="">Semana 1</h2>
@@ -302,7 +305,7 @@
 
                                         </ol>
                                     </div>
-                                
+
                                 </div>
                             </section>
                             <!-- :semana-1 -->
@@ -340,8 +343,8 @@
                                     
                                     <h3 class="case-project-name text-white">O Design como vamtagem competitiva</h3>
                                     <p class="default-text case-text-description text-white">Muito mais que um novo produto ou uma nova plataforma, inovação está cada vez mais relacionada ao processo. E o que o design te a ver co misso?</p>
-                                    <a href="#" class="cta" title="Ler Mais">LER MAIS</a>
-                                    <a href="#" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
+                                    <a href="javascript:void(0);" class="cta" title="Ler Mais">LER MAIS</a>
+                                    <a href="javascript:void(0);" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
                                 </div>
                             </div>
                             
@@ -426,10 +429,10 @@
                             <nav class="social-nav">
                                 <ul class="social-list">
                                     <li class="social-item">
-                                        <a href="#" title="Linkedin HandMade UX"></a>
+                                        <a href="javascript:void(0);" title="Linkedin HandMade UX"></a>
                                     </li>
                                     <li class="social-item">
-                                    <a href="#" title="Facebook HandMade UX"></a>
+                                    <a href="javascript:void(0);" title="Facebook HandMade UX"></a>
                                     </li>
                                 </ul>
                             </nav>
@@ -445,18 +448,81 @@
                 <script src="js/modernizr.custom.js"></script>
                 <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
                 <script src="js/jquery.backgroundvideo.min.js"></script>
+                <script src="https://www.youtube.com/iframe_api"></script>
                 <script src="js/script.js"></script>
+
+                <style type="text/css">
+                    #video-placeholder{
+                        float: left;
+                        width: 100%;
+                        height: 100%;
+                        background: #222
+                    }
+                </style>
+                
                 <script>
 
-            
-            //demo 02
-            $("#demo01").animatedModal({
+                //for modal metodo
+                $("#demo01").animatedModal({
                 modalTarget:'animatedModal',
                 animatedIn:'zoomIn',
                 animatedOut:'bounceOutDown',
                 color:'#eeeeee'
-            });
+                });
 
-        </script>
+                // form play youtube
+                var player;
+
+                function onYouTubeIframeAPIReady() {
+                    player = new YT.Player('video-placeholder', {
+                        width: '100%',
+                        height: '100%',
+                        videoId: 'Xa0Q0J5tOP0',
+                        playerVars: {
+                            color: 'white',
+                            playlist: ''
+                        },
+                        events: {
+                            onReady: initialize
+                        }
+                    });
+                }
+
+                function initialize(){
+
+                // Update the controls on load
+                updateTimerDisplay();
+                updateProgressBar();
+
+                // Clear any old interval.
+                clearInterval(time_update_interval);
+
+                // Start interval to update elapsed time display and
+                // the elapsed part of the progress bar every second.
+                time_update_interval = setInterval(function () {
+                updateTimerDisplay();
+                updateProgressBar();
+                }, 1000)
+
+                };
+
+                $('#play-video-optima-1, #play-video-optima-2').on('click', function () {
+                    $('#play-video-optima-2').hide();
+                    player.playVideo();
+
+                });
+
+                $("button").click(function(){
+                    $("div").animate({
+                        left: '250px',
+                        opacity: '0.5',
+                        height: '150px',
+                        width: '150px'
+                    });
+                });
+
+
+                </script>
+
     </body>
 </html>
