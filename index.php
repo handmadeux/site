@@ -63,19 +63,19 @@
                             <nav class="top-nav">
                                 <ul class="top-nav-menu">
                                     <li class="top-nav-item">
-                                        <a href="javascript:void(0);" title="Clienets" onclick="$('html,body').animate({scrollTop: $('#clientes').offset().top - 0}, 500);">Clientes</a>
+                                        <a href="javascript:void(0);" title="Clienets" onclick="$('html,body').animate({scrollTop: $('#clientes').offset().top - 75}, 500);">Clientes</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="javascript:void(0);" title="Método" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 0}, 500);">Método</a>
+                                        <a href="javascript:void(0);" title="Método" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);">Método</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="javascript:void(0);" title="Con-Nections" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 0}, 500);">Con–Nections</a>
+                                        <a href="javascript:void(0);" title="Con-Nections" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 75}, 500);">Con–Nections</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="javascript:void(0);" title="Quem Somos" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 0}, 500);">Quem Somos</a>
+                                        <a href="javascript:void(0);" title="Quem Somos" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 75}, 500);">Quem Somos</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="javascript:void(0);" title="Contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 0}, 500);">Contato</a>
+                                        <a href="javascript:void(0);" title="Contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 75}, 500);">Contato</a>
                                     </li>
                                     <li class="top-nav-item">
                                         <a href="javascript:void(0);" title="Projetos" class="top-nav-cta">Projetos</a>
@@ -89,7 +89,7 @@
                             <h2 class="feature-text text-white">Criamos experiências</br> incríveis Juntos</h2>
                             <p class="feature-text feature-text-paragraph text-white">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
                             <div class="box-cta">
-                                <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#make-experience').offset().top - 0}, 500);" class="feature-cta" title="Verja Mais">VER MAIS</a>
+                                <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#make-experience').offset().top - 75}, 500);" class="feature-cta" title="Verja Mais">VER MAIS</a>
                             </div>
                         </div>
 
@@ -108,7 +108,7 @@
                         <div class="row-fluid">
 
                             <div class="col col-md-8">
-                                <img src="img/destaque-cases.png" alt="Projetos em destaque HandMade UX" width="740" height="625">
+                                <img class="img-case-destaque" src="img/destaque-cases.png" alt="Projetos em destaque HandMade UX" width="740" height="625">
                             </div>
 
                             <div class="col col-md-4">
@@ -173,7 +173,7 @@
 
                     <!-- clientes: -->
                     <section class="container" id="clientes">
-                        <div class="row">
+                        <div class="row-fluid">
                             <p class="default-text">CLIENTES</p>
 
                             <ul class="client-list">
@@ -371,9 +371,8 @@
                         <div class="row">
 
 
-                                <p class="default-text head-line">O NOVO CAMINHO DO DESIGN</p></br>
-                                <h2 class="title-section head-line">Idealizadores desse</br> grande projeto</h2>
-                            
+                                <p class="default-text head-line">QUEM SOMOS</p>
+                                
                             <div class="idealizador">
                                 <div class="col col-md-6 idealizador-img">
                                     <img class="pull-right" src="img/luis-felipe-fernandes.jpg" alt="Foto de Luis Felipe Fernandes" width="370" height="370">
@@ -441,10 +440,10 @@
                             <nav class="social-nav">
                                 <ul class="social-list">
                                     <li class="social-item">
-                                        <a href="javascript:void(0);" title="Linkedin HandMade UX"></a>
+                                        <a href="https://www.linkedin.com/company/10178974" rel="_blank" title="Linkedin HandMade UX" class="icon-linkedin"></a>
                                     </li>
                                     <li class="social-item">
-                                    <a href="javascript:void(0);" title="Facebook HandMade UX"></a>
+                                    <a href="https://www.facebook.com/HandMadeUX/" rel="_blank" title="Facebook HandMade UX" class="icon-facebook"></a>
                                     </li>
                                 </ul>
                             </nav>
@@ -461,17 +460,7 @@
                 <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
                 <script src="js/jquery.backgroundvideo.min.js"></script>
                 <script src="https://www.youtube.com/iframe_api"></script>
-                <script src="js/script.js"></script>
-
-                <style type="text/css">
-                    #video-placeholder{
-                        float: left;
-                        width: 100%;
-                        height: 100%;
-                        background: #222
-                    }
-                </style>
-                
+                <script src="js/script.js"></script> 
                 <script>
 
                 //for modal metodo
@@ -486,7 +475,7 @@
                 var player;
 
                 function onYouTubeIframeAPIReady() {
-                    player = new YT.Player('video-placeholder', {
+                    player = new YT.Player('', {
                         width: '100%',
                         height: '100%',
                         videoId: 'Xa0Q0J5tOP0',
@@ -512,38 +501,15 @@
                 // Start interval to update elapsed time display and
                 // the elapsed part of the progress bar every second.
                 time_update_interval = setInterval(function () {
-                updateTimerDisplay();
-                updateProgressBar();
-                }, 1000)
+                        updateTimerDisplay();
+                        updateProgressBar();
+                    }, 1000)
 
                 };
 
                 $('#play-video-optima-1, #play-video-optima-2').on('click', function () {
                     $('#play-video-optima-2').hide();
                     player.playVideo();
-                    //Mixpanel test
-                    mixpanel.track("Video play - Case Optima");
-
-                });
-
-                $("button").click(function(){
-                    $("div").animate({
-                        left: '250px',
-                        opacity: '0.5',
-                        height: '150px',
-                        width: '150px'
-                    });
-                });
-
-                // Mixpanel test
-
-                //Definindo um Profile
-                mixpanel.identify("000001");
-                mixpanel.people.set({
-                    "$first_name": "Huxley",
-                    "$last_name": "Dias",
-                    "$created": "2016-07-13T15:00:00",
-                    "$email": "huxley@handmadeux.com.br"
                 });
 
                 // Controle do menu fixo superior
