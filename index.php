@@ -178,21 +178,23 @@
 
                             <ul class="client-list">
                                 <li class="client-list-item">
-                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                    <img src="img/adobe-logo.png" alt="Adobe" width="69" height="80">
                                 </li>
                                 <li class="client-list-item">
-                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                    <img src="img/net-logo.png" alt="NET" width="125" height="30">
                                 </li>
                                 <li class="client-list-item">
-                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                    <img src="img/optima-logo.png" alt="Optima" width="125" height="32">
                                 </li>
                                 <li class="client-list-item">
-                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                    <img src="img/broou-logo.png" alt="Broou" width="128" height="60">
                                 </li>
                                 <li class="client-list-item">
-                                    <img src="http://placehold.it/160x100" alt="Nome Cliente">
+                                    <img src="img/amadre-logo.png" alt="A Madre" width="73" height="82">
                                 </li>
-
+                                <li class="client-list-item">
+                                    <img src="img/porto-seguro-logo.png" alt="Porto Seguro" width="125" height="39">
+                                </li>
                             </ul>
                                 
                             </div>
@@ -211,7 +213,9 @@
                             
                         <div class="row-fluid">
                             <div class="col col-md-6">
-                                <div class="frame-video-metodo pull-right"></div>
+                                <div class="frame-video-metodo pull-right">
+                                    <span class="bt-play-video" id="play-video-metodo"><i class="arrow-right"></i></span>
+                                </div>
                             </div>
                             <div class="col col-md-6">
                                 <ul class="metodo-list">

@@ -367,9 +367,13 @@ h1, h2, h3{
 	float: left;
 	margin: 20px;
 }
+.client-list-item img{
+	display: block;
+	margin: 0 auto
+}
 #metodo{
 	height: auto;
-	background: #ffffff;
+	background: #ffffff url('../img/photo-sprint.jpg') 0 200px no-repeat;
 	padding-bottom: 40px
 }
 #metodo .head-line p, #metodo .head-line h2{
@@ -379,8 +383,13 @@ h1, h2, h3{
 	width: 370px;
 	height: 240px;
 	float: right;
-	background: #e2e2e7;
+	background: #e2e2e7 url('../img/frame-metodo.jpg') no-repeat;
 	margin-top: 100px; 
+	position: relative;
+}
+.frame-video-metodo .bt-play-video{
+	top:85px;
+	left: 147px
 }
 .metodo-list{
 	float: left;
