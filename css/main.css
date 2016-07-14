@@ -107,6 +107,7 @@ h1, h2, h3{
 	-moz-background-size:cover;
 	-o-background-size: cover;
 }
+
 .brand{
 	color:#fff;
 	display: block;
@@ -114,8 +115,6 @@ h1, h2, h3{
 	line-height:1;
 	margin:0 0 0 30px;
 	text-indent: -9999px;
-	width: 300px;
-	height: 74px;
 	float: left
 }
 .brand>img{
@@ -136,6 +135,10 @@ h1, h2, h3{
 	margin: 5px;
 }
 .top-nav-item a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	text-rendering: optimizeLegibility;
+	letter-spacing: 0.1em;
 	float: left;
 	color: #fff;
 	font-size: 13px;
@@ -149,19 +152,46 @@ h1, h2, h3{
 }
 .top-nav-cta{
 	color: #333 !important;
-	background: #fff;
+	background: #fff url('../img/icon-menu.png') 95px 9px no-repeat;
 	border-radius: 50px;
 	width: 140px;
-	text-align: center;
+	text-align: left;
+	text-indent: 10px;
+	width: 125px
 }
 .top-nav-cta:hover{
 	color: #fff !important;
-	background: #f25c6a
+	background: #f25c6a url('../img/icon-menu-hover.png') 95px 9px no-repeat
 }
+
+.nav-fixed{
+	background: #fff;
+	height: 75px;
+	position: fixed;
+	z-index: 5;
+	border-bottom: solid 1px #e4e4e4;
+	padding: 1% 2%;
+}
+/*alteracoes no menu quando fixo*/
+.nav-fixed .top-nav-item a{
+	color: #222;
+}
+.nav-fixed  .top-nav-cta{
+	color: #fff !important;
+	background: #474752  url('../img/icon-menu-hover.png') 95px 9px no-repeat
+}
+.nav-fixed  .top-nav-cta:hover{
+	color: #fff !important;
+	background: #f25c6a url('../img/icon-menu-hover.png') 95px 9px no-repeat
+}
+.nav-fixed .brand{
+	margin-top: 4px;
+}
+
 .feature{
 	float: left;
 	width: 100%;
-	margin-top:120px;
+	margin-top:160px;
 	display: block;
 }
 .feature-text{

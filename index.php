@@ -55,9 +55,9 @@
                 <div class="main">
                     <!-- header; -->
                     <section class="container" id="header">
-                        <div class="row-fluid">
+                        <div class="row-fluid header-nav ">
                             <h1 class="brand">HandMade UX
-                                <img src="img/hand-made-ux-marca.png" alt="HandMade UX" width="200" height="32">
+                                <img class="brand-img" src="img/hand-made-ux-marca.png" alt="HandMade UX" width="200" height="32">
                             </h1>
 
                             <nav class="top-nav">
@@ -69,7 +69,7 @@
                                         <a href="javascript:void(0);" title="Método" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 0}, 500);">Método</a>
                                     </li>
                                     <li class="top-nav-item">
-                                        <a href="javascript:void(0);" title="Con-Nections" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 0}, 500);">Con - Nections</a>
+                                        <a href="javascript:void(0);" title="Con-Nections" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 0}, 500);">Con–Nections</a>
                                     </li>
                                     <li class="top-nav-item">
                                         <a href="javascript:void(0);" title="Quem Somos" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 0}, 500);">Quem Somos</a>
@@ -546,6 +546,21 @@
                     "$email": "huxley@handmadeux.com.br"
                 });
 
+                // Controle do menu fixo superior
+                var $document = $(document),
+                    $myBrand = $('.brand-img'),
+                    $element = $('.header-nav'),
+                    className = 'nav-fixed';
+
+                $document.scroll(function() {
+                    if ($document.scrollTop() >= 75) {
+                        $element.addClass(className);
+                        $myBrand.attr('src', 'img/hand-made-ux-marca-negativo.png');
+                            } else {
+                                $element.removeClass(className);
+                                $myBrand.attr('src', 'img/hand-made-ux-marca.png');
+                            }
+                        });
                 </script>
 
     </body>
