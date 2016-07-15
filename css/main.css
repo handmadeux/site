@@ -7,7 +7,10 @@ html, body{
 	position: relative;
 	font-family: 'Open Sans', sans-serif;
 	color: #6d6d6d;
-	box-sizing: border-box
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
 }
 html{
 	background:#fff
@@ -30,7 +33,9 @@ h1, h2, h3{
 
 .main{
 	float: left;
-	width: 100%
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 .container{
 	width: 100%;
@@ -45,7 +50,7 @@ h1, h2, h3{
 }
 .row-fluid{
 	width: 100%;
-	padding: 2%;
+	padding: 2% 0;
 	box-sizing: border-box;
 	float: left;
 	position: relative
@@ -166,7 +171,6 @@ h1, h2, h3{
 
 .nav-fixed{
 	background: rgba(255, 255, 255, 0.99);
-	filter: blur(20px);
 	height: 75px;
 	position: fixed;
 	z-index: 5;
@@ -423,7 +427,7 @@ h1, h2, h3{
 }
 .client-list-item{
 	float: left;
-	margin: 43px;
+	margin: 42px;
 }
 
 .client-list-item img{
@@ -780,38 +784,87 @@ h1, h2, h3{
 	background: url(../img/icon-facebook.png) 4px 3px no-repeat;
 }
 @media only screen and (max-width: 680px) {
-	.row-fluid{
-		
+	.row, .row-fluid{
+		width: 100%	
 	}
 	.col-md-6{
 		width: 100%;
-		float: left;
+		float: left
 	}
 	.col-md-4{
 		width: 100.3%;
-		float: left;
+		float: left
 	}
 	.col-md-4{
 		width: 50.%;
-		float: left;
+		float: left
 	}
 	.col-md-3{
 		width: 100%;
-		float: left;
+		float: left
 	}
 	.brand{
 		margin: 20px auto;
 		float: none;
+		box-sizing: border-box
 	}
-	.top-nav{
-		display: none;
+	.brand-img{
+		display: block;
+		margin: 0 auto
 	}
-
+	.top-nav, .nav-fixed{
+		display: none
+	}
+	#header{
+		height: auto
+	}
 	.feature{
 		padding: 15px 
 	}
 	#make-experience, #case-1, #case-2, #case-3{
-	height: auto !important;
+		height: auto !important
 	}
-
+	#make-experience .description-case{
+		margin: 0 0 20px 0
+	}
+	.client-list-item {
+    	float: left;
+    	width: 50%;
+    	min-height: 100px;
+    	margin: 0
+	}
+	#metodo {
+    	background: #ffffff
+	}
+	#metodo .cta {
+    	display: none
+	}
+	.frame-video-metodo{
+		display: block;
+		float: none;
+		margin: 0 auto
+	}
+	.metodo-list{
+		margin-top: 7%;
+	}
+	#design-conections .description-case{
+		margin: 0
+	}
+	#design-conections{
+		height: auto;
+		padding: 2% 0
+	}
+	.conections-title{
+		padding: 4% 2%
+	}
+	.pull-right, .pull-left{
+		float: none
+	}
+	.idealizador-img img{
+		display: block;
+		margin: 0 auto
+	}
+	.idealizador-name, .idealizador-bio{
+		text-align: center
+	}
 }

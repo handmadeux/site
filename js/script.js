@@ -35,7 +35,7 @@ function fadedEls(el, shift) {
             "path" : "video/",
             "width": 1280,
             "height": 770,
-            "filename" : "enterprise-loop",
+            // "filename" : "enterprise-loop",
             "types" : ["mp4", "ogg", "webm"]
         });
         // Sections height & scrolling
