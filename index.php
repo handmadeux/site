@@ -45,7 +45,7 @@
         <!-- End Google Tag Manager -->
 
         <!-- Hotjar Tracking Code for http://www.handmadeux.com.br -->
-        <script>
+        <!-- <script>
             (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                 h._hjSettings={hjid:250158,hjsv:5};
@@ -54,7 +54,7 @@
                 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                 a.appendChild(r);
             })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
+        </script> -->
 
 
     </head>
@@ -176,9 +176,9 @@
                     </div>
                 </div>
 
-                <div class="row-fluid p-absolute no-padding">
+               <!--  <div class="row-fluid p-absolute no-padding">
                     <img src="img/app-broou-iphone.png" class="img-case-broou" alt="Projetos App Broou" width="470" height="328">
-                </div>
+                </div> -->
 
             </section>
             <!-- :case-2 -->
