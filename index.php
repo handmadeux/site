@@ -466,11 +466,11 @@
         
         <script src="js/jquery.min.js"></script>
         <script src="js/animatedModal.js"></script>
-        <script src="js/modernizr.custom.js"></script>
+        <!-- <script src="js/modernizr.custom.js"></script>
         <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-        <script src="js/jquery.backgroundvideo.min.js"></script>
+        <script src="js/jquery.backgroundvideo.min.js"></script> -->
         <script src="https://www.youtube.com/iframe_api"></script>
-        <script src="js/script.js"></script> 
+        <!-- <script src="js/script.js"></script>  -->
         <script>
 
         //for modal metodo
