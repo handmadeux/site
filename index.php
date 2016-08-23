@@ -3,10 +3,11 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>HandMade UX</title>
-        <meta name="description" content=".">
-        <meta name="keywords" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>HandMade UX - Criamos Experiências Juntos</title>
+        <meta name="description" content="Consultoria especializada em Ux Design e Estratégia para Mobile. Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.">
+        <meta name="keywords" content="HandMade UX, Design, Mobile, Estratégia">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <meta name="MobileOptimized" content="320">
         <meta name="Author" content="Huxley Dias">
         <meta name="Distribution" content="Global">
         <meta name="Language" content="pt-br">
@@ -15,20 +16,20 @@
 
         <!-- for facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="HandMade UX"/>
-        <meta property="og:description" content="" />
+        <meta property="og:title" content="HandMade UX - Criamos Experiências Juntos"/>
+        <meta property="og:description" content="Consultoria especializada em Ux Design e Estratégia para Mobile. Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais." />
         <meta property="og:image" content="http://www.handmadeux.com.br/img/avatar-handmade.jpg" />
         <meta property="og:url" content="http://www.hundmadeux.com.br"/>
         <!-- for twitter -->
         <meta name="twitter:card" content="summary_large_image">
-        <meta name="twitter:site" content="">
-        <meta name="twitter:title" content="HandMade UX"> 
-        <meta name="twitter:description" content=""> 
-        <meta name="twitter:creator" content=""> 
-        <meta name="twitter:image:src" content=""> 
-        <meta name="twitter:domain" content="">
+        <meta name="twitter:site" content="@handmadeux">
+        <meta name="twitter:title" content="HandMade UX - Criamos Experiências Juntos"> 
+        <meta name="twitter:description" content="Consultoria especializada em Ux Design e Estratégia para Mobile. Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais."> 
+        <meta name="twitter:creator" content="@handmadeux"> 
+        <meta name="twitter:image:src" content="http://www.handmadeux.com.br/img/avatar-handmade.jpg"> 
+        <meta name="twitter:domain" content="http://www.handmadeux.com.br">
         <link rel="icon" type="image/png" href="img/favicon.png" />
-        <link rel="canonical" href=""/> 
+        <link rel="canonical" href="www.handmadeux.com.br"/> 
         <link href='https://fonts.googleapis.com/css?family=Montserrat:200,400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,200' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
@@ -72,16 +73,16 @@
                     <nav class="top-nav">
                         <ul class="top-nav-menu">
                             <li class="top-nav-item">
-                                <a href="javascript:void(0);" title="Clienets" onclick="$('html,body').animate({scrollTop: $('#clientes').offset().top - 75}, 500);">Clientes</a>
+                                <a href="javascript:void(0);" title="A Mágica" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);">A Mágica</a>
                             </li>
                             <li class="top-nav-item">
-                                <a href="javascript:void(0);" title="Método" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);">Método</a>
+                                <a href="javascript:void(0);" title="Quem faz com a gente" onclick="$('html,body').animate({scrollTop: $('#clientes').offset().top - 75}, 500);">Clientes</a>
                             </li>
                             <li class="top-nav-item">
-                                <a href="javascript:void(0);" title="Con-Nections" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 75}, 500);">Con–Nections</a>
+                                <a href="javascript:void(0);" title="Nosso Time" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 75}, 500);">Equipe</a>
                             </li>
                             <li class="top-nav-item">
-                                <a href="javascript:void(0);" title="Quem Somos" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 75}, 500);">Quem Somos</a>
+                                <a href="javascript:void(0);" title="Iniciativas" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 75}, 500);">Iniciativas</a>
                             </li>
                             <li class="top-nav-item">
                                 <a href="javascript:void(0);" title="Contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 75}, 500);">Contato</a>
@@ -97,10 +98,11 @@
                 <!-- feature: -->
                 <div class="feature">
                     
-                    <h2 class="feature-text text-white">Criamos experiências</br> incríveis Juntos</h2>
-                    <p class="feature-text feature-text-paragraph text-white">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
+                    <h2 class="feature-text text-white">Criamos experiências.</br><small>E fazemos isso juntos.</small></h2>
+                    <p class="feature-text feature-text-paragraph text-white">Entendemos seu problema. Entendemos seu usuário. Criamos. Validamos. <br/>
+E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos.</p>
                     <div class="box-cta">
-                        <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#make-experience').offset().top - 75}, 500);" class="feature-cta" title="Verja Mais">VER MAIS</a>
+                        <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);" class="feature-cta" title="Entenda a Mágica">ENTENDA A MÁGICA</a>
                     </div>
                 </div>
                 <!-- :feature -->
@@ -119,7 +121,7 @@
 
                 <div class="row-fluid">
                     <div class="col col-md-8">
-                        <img class="img-case-destaque" src="img/destaque-cases.png" alt="Projetos em destaque HandMade UX" width="740" height="625">
+                        <img class="img-case-destaque" src="img/destaque-cases.png" alt="Projetos em destaque HandMade UX" width="649" height="617">
                     </div>
 
                     <div class="col col-md-4">
@@ -186,7 +188,7 @@
             <!-- clientes: -->
             <section class="container" id="clientes">
                 <div class="row-fluid">
-                    <p class="default-text">CLIENTES</p>
+                    <p class="default-text">QUEM FAZ COM AGENTE</p>
 
                     <ul class="client-list">
                         <li class="client-list-item">
@@ -218,11 +220,34 @@
                 
                 <div class="row-fluid head-line">
                     <p class="text-default">MÉTODO</p>
-                    <h2 class="title-section">Estratégia e design mobile</br> em 15 dias</h2>
+                    <h2 class="title-section">Inovação em estratégia mobile</br> em 15 dias</h2>
                 </div>
 
+                <div class="row-fluid head-line">
+                    <ul class="list-steps">
+                        <li class="step-item">
+                            <div class="step-title step-equipe">EQUIPE</div>
+                            <p class="step-text">Selecionamos nossos MELHORES consultores de acordo com as necessidades do projeto.</p>
+                        </li>
+                        <li class="step-item">
+                        <div class="step-title color-green">SEMANA <span>#01</span></div>
+                            <p class="step-text">Imergimos no negócio, no target e nas pistas que sua base de dados pode dar.</p>
+                        </li>
+                        <li class="step-item">
+                            <div class="step-title color-green">SEMANA <span>#02</span></div>
+                            <p class="step-text">Co-criamos: Insights, protótipo e validação com usuários reais.</br>Haja Post-it!</p>
+                        </li>
+                        <li class="step-item">
+                            <div class="step-title color-green">SEMANA <span>#03</span></div>
+                            <p class="step-text">Feedbacks, ajustes e uma solução pronta para o mercado. e o melhor: kpi‘s 100% mensuráveis.</p>
+                        </li>
+                    </ul>
+                </div>
                     
                 <div class="row-fluid">
+                    <div class="row-fluid head-line">
+                        <h2 class="title-section"><small>Vantagens de fazer a mágica acontecer</small></h2>
+                    </div>
                     <div class="col col-md-6">
                         <div class="frame-video-metodo pull-right">
                             <span class="bt-play-video" id="play-video-metodo"><i class="arrow-right"></i></span>
@@ -230,128 +255,22 @@
                     </div>
                     <div class="col col-md-6">
                         <ul class="metodo-list">
-                            <li>Prazo previsível</li>
-                            <li>Custo previsível</li>
+                            <li>Xô burocracia</li>
+                            <li>Prazo de projeto previsível</li>
                             <li>Estrutura necessária previsível</li>
-                            <li>Etapas de aprovação eliminadas</li>
-                            <li>Quantidade garantida pela validação com usuários reais </br>e equipe 100% sênior com dedicação exclusiva</li>
-                            <li>Resultados 100% mensuráveis</li>
+                            <li>Co-criação = aprovação durante o processo</li>
+                            <li>Equipe especializada e moldada ao desafio</li>
+                            <li>Validação com usuários reais</li>
+                            <li>Resultados 100% mensureaveis</li>
                         </ul>
-                        <a id="demo01" href="#animatedModal" class="cta">saiba mais</a>
+                        <a id="demo01" href="#animatedModal" class="cta" href="javascript:void(0);" title="Era iss oque procurava, entrar em contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 75}, 500);">"ERA ISSO QUE EU PROCURAVA"</a>
                     </div>
                 </div>
 
             </section>
             <!-- :metodo -->
 
-            <!-- modal: -->
-            <div id="animatedModal">
-
-                <a href="" class="close-animatedModal" title="fechar detalhes">X</a>
-
-                <!-- modal content: -->
-                <div class="modal-content">
-                    <!-- semana-1: -->
-                    <section class="container" id="semana-1">
-                        <div class="row-fluid">
-
-                            <div class="time-line">
-
-                                <div class="row-fluid head-line">
-                                    <p class="text-default">MÉTODO</p>
-                                    <h2 class="">Semana 1</h2>
-                                    <p class="">Imersão, coleta de dados e entendimento do projeto</p>
-                                </div>
-
-                                <ol class="sprint-time-line center-line">
-
-                                    <li class="list-card card-right" id="card-1">
-                                        <header>
-                                            <h3>Sprint Leader</h3>
-                                            <div class="conector-cart">
-                                                <span>
-                                                    <i></i>
-                                                </span>
-                                            </div>
-                                        </header>
-                                        <content>
-                                            <img src="http://placehold.it/320x180" alt="Titulo Imagem">
-                                            <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
-                                        </content>
-                                    </li>
-
-                                    <li class="list-card " id="card-2">
-                                        <header>
-                                            <h3>Inteligência de Dados - BI</h3>
-                                            <div class="conector-cart">
-                                                <span>
-                                                    <i></i>
-                                                </span>
-                                            </div>
-                                        </header>
-                                        <content>
-                                            <img src="http://placehold.it/320x180" alt="Titulo Imagem">
-                                            <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
-                                        </content>
-                                    </li>
-
-                                    <li class="list-card card-right" id="card-3">
-                                        <header>
-                                            <h3>UI/UX Designer</h3>
-                                            <div class="conector-cart">
-                                                <span>
-                                                    <i></i>
-                                                </span>
-                                            </div>
-                                        </header>
-                                        <content>
-                                            <img src="http://placehold.it/320x180" alt="Titulo Imagem">
-                                            <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
-                                        </content>
-                                    </li>
-
-                                    <li class="list-card" id="card-4">
-                                        <header>
-                                            <h3>User Research</h3>
-                                            <div class="conector-cart">
-                                                <span>
-                                                    <i></i>
-                                                </span>
-                                            </div>
-                                        </header>
-                                        <content>
-                                            <img src="http://placehold.it/320x180" alt="Titulo Imagem">
-                                            <p class="description-card">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Equipe 100% Sênior dedicada em cada projeto.</p>
-                                        </content>
-                                    </li>
-
-                                </ol>
-                            </div>
-
-                        </div>
-                    </section>
-                    <!-- :semana-1 -->
-
-                    <!-- semana-2: -->
-                    <section class="container" id="semana-2">
-                        <div class="row-fluid">
-
-                        </div>
-                    </section>
-                    <!-- :semana-2 -->
-
-                    <!-- semana-3: -->
-                    <section class="container" id="semana-3">
-                        <div class="row-fluid">
-
-                        </div>
-                    </section>
-                    <!-- :semana-3 -->
-                </div>
-                <!-- :modal content -->
-
-            </div>
-            <!-- :modal -->
+            
 
             <!-- connections: -->
             <section class="container" id="design-conections">
@@ -364,7 +283,7 @@
                      <div class="col col-md-6">
                         <div class="description-case">
                             
-                            <h3 class="case-project-name text-white">O Design como vamtagem competitiva</h3>
+                            <h3 class="case-project-name text-white">O Design como vantagem competitiva</h3>
                             <p class="default-text case-text-description text-white">Muito mais que um novo produto ou uma nova plataforma, inovação está cada vez mais relacionada ao processo. E o que o design te a ver co misso?</p>
                             <a href="javascript:void(0);" class="cta" title="Ler Mais">LER MAIS</a>
                             <a href="javascript:void(0);" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
@@ -465,21 +384,14 @@
         <!-- :main -->
         
         <script src="js/jquery.min.js"></script>
-        <script src="js/animatedModal.js"></script>
-        <!-- <script src="js/modernizr.custom.js"></script>
-        <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/jquery.backgroundvideo.min.js"></script> -->
         <script src="https://www.youtube.com/iframe_api"></script>
         <!-- <script src="js/script.js"></script>  -->
         <script>
 
-        //for modal metodo
-        $("#demo01").animatedModal({
-        modalTarget:'animatedModal',
-        animatedIn:'zoomIn',
-        animatedOut:'bounceOutDown',
-        color:'#eeeeee'
-        });
+        
 
         // form play youtube
         var player;
@@ -488,7 +400,7 @@
             player = new YT.Player('', {
                 width: '100%',
                 height: '100%',
-                videoId: 'Xa0Q0J5tOP0',
+                videoId: 'ux0p3OAnVdE',
                 playerVars: {
                     color: 'white',
                     playlist: ''
