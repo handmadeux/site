@@ -498,7 +498,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         //Animate Modal
         $("#modal-video1").animatedModal({
             modalTarget:'animatedModal1',
-            animatedIn:'lightSpeedIn',
+            animatedIn:'zoomIn',
             animatedOut:'bounceOutDown',
             color:'#eeeeee',
                 beforeOpen: function() {
@@ -516,7 +516,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         });
         $("#modal-video2").animatedModal({
             modalTarget:'animatedModal2',
-            animatedIn:'lightSpeedIn',
+            animatedIn:'zoomIn',
             animatedOut:'bounceOutDown',
             color:'#eeeeee',
                 beforeOpen: function() {
