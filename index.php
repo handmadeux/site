@@ -126,8 +126,8 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
                     <div class="col col-md-4">
                         <div class="description-case">
-                            <p class="default-text case-client-name">OPTIMA</p>
-                            <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
+                            <p class="default-text case-client-name">OTIMA</p>
+                            <h3 class="case-project-name">Case App Leve-me - OTIMA</h3>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
                             <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a> -->
                             <a class="cta cta-play-video play-inverse" title="Play vídeo do evento" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
@@ -146,7 +146,10 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <!-- videoframe: -->
                         <section class="container" id="semana-1">
                             <div class="row-fluid">
-                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE" frameborder="0" allowfullscreen></iframe>
+                            <h3 class="case-project-name">Digital Transformation Strategy &amp; Mobile App</h3>
+                            <div id="video-target-test"></div>
+                            <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
+                            <!-- <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen ></iframe> -->
                             </div>
                         </section>
                         <!-- :vieoframe -->
@@ -326,7 +329,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     <!-- videoframe: -->
                     <section class="container" id="semana-1">
                         <div class="row-fluid">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE" frameborder="0" allowfullscreen></iframe>
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </section>
                     <!-- :vieoframe -->
@@ -426,7 +429,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         <script src="js/jquery.min.js"></script>
         <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
-         <script src="https://www.youtube.com/iframe_api"></script>
+        <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
         <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/jquery.backgroundvideo.min.js"></script> -->
         <!-- <script src="js/script.js"></script>  -->
@@ -448,53 +451,6 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                 }
             });
 
-
-        var player;
-
-        function onYouTubeIframeAPIReady() {
-            player = new YT.Player('video-placeholder', {
-                width: 720,
-                height: 500,
-                videoId: 'ux0p3OAnVdE',
-                events: {
-                    onReady: initialize
-                }
-            });
-        }
-
-        // Initialize YouTube API
-       
-        function initialize(){
-
-            // Update the controls on load
-            updateTimerDisplay();
-            updateProgressBar();
-
-            // Clear any old interval.
-            clearInterval(time_update_interval);
-
-            // Start interval to update elapsed time display and
-            // the elapsed part of the progress bar every second.
-            time_update_interval = setInterval(function () {
-                updateTimerDisplay();
-                updateProgressBar();
-            }, 1000);
-        }
-
-        // $('.video-target').on('click', function () {
-
-        //     var url = $(this).attr('data-video-id');
-
-        //     player.cueVideoById(url);
-
-        // });
-
-        // $('#play-video-optima-1').on('click', function () {
-
-        //     player.playVideo();
-
-        // });
-
         //Animate Modal
         $("#modal-video1").animatedModal({
             modalTarget:'animatedModal1',
@@ -504,8 +460,8 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                 beforeOpen: function() {
                     console.log("The animation was called");
                 },           
-                afterOpen: function(playVideo) {
-                    
+                afterOpen: function() {
+                   
                 }, 
                 beforeClose: function() {
                     console.log("The animation was called");
@@ -514,6 +470,10 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     console.log("The animation is completed");
                 }
         });
+        $('#modal-video1').on('click', function () {
+             player.playVideo();
+        });
+
         $("#modal-video2").animatedModal({
             modalTarget:'animatedModal2',
             animatedIn:'zoomIn',
@@ -532,6 +492,40 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     console.log("The animation is completed");
                 }
         });
+
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+     
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('video-target-test', {
+          height: '500',
+          width: '100%',
+          videoId: 'ux0p3OAnVdE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      }
         
         </script>
     </body>
