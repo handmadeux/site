@@ -1,1 +1,0 @@
-<?php include_once OP_THEME_DIR.'comments.php';
