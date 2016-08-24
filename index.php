@@ -121,7 +121,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
                 <div class="row-fluid">
                     <div class="col col-md-8">
-                        <img class="img-case-destaque" src="img/destaque-cases.png" alt="Projetos em destaque HandMade UX" width="649" height="617">
+                        <img class="img-case-destaque" src="img/destaque-cases.jpg" alt="Projetos em destaque HandMade UX" width="649" height="617">
                     </div>
 
                     <div class="col col-md-4">
@@ -130,21 +130,41 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                             <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
                             <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a> -->
+                            <a class="cta cta-play-video play-inverse" title="Play vídeo do evento" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
                         </div>
                     </div>
 
                 </div>
 
+                <!-- modal: -->
+                <div id="animatedModal1">
+
+                    <a href="" class="close-animatedModal" title="fechar detalhes">X</a>
+
+                    <!-- modal content: -->
+                    <div class="modal-content">
+                        <!-- videoframe: -->
+                        <section class="container" id="semana-1">
+                            <div class="row-fluid">
+                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </section>
+                        <!-- :vieoframe -->
+                    </div>
+                    <!-- :modal content -->
+                </div>
+                <!-- :modal -->
+
             </section>
             <!-- :make-experience -->
 
             <!-- case-1: -->
-            <section class="container" id="case-1">
+            <!-- <section class="container" id="case-1">
                 <div class="row-fluid no-padding">
                     
                     <div class="col col-md-6">
                         <div class="description-case">
-                            <p class="default-text case-client-name">OPTIMA</p>
+                            <p class="default-text case-client-name">OTIMA</p>
                             <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
                             <a href="javascript:void(0);" class="cta cta-play-video" id="play-video-optima-1" title="Play vídeo do evento">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
@@ -153,15 +173,15 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
                     <div class="col col-md-6">
                         <div class="frame-video-case-leve-me">
-                            <!-- video placeholder: -->
+                            
                             <div id="video-placeholder" class="video-target" data-video-id="ux0p3OAnVdE"></div>
-                            <!-- video placeholder: -->
-                            <!-- <span class="bt-play-video" id="play-video-optima-2" ><i class="arrow-right"></i></span> -->
+                            
+                            <span class="bt-play-video" id="play-video-optima-2" ><i class="arrow-right"></i></span>
                         </div>
                     </div>
                    
                 </div>
-            </section>
+            </section> -->
             <!-- :case-1 -->
 
             <!-- case-2: -->
@@ -173,14 +193,10 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <h3 class="case-project-name">Mobile App & Wearable</h3>
                         <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
                         <div class="box-cta">
-                            <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto">VER PROJETO</a> -->
+                            <a href="https://itunes.apple.com/br/app/broou-surf-forecast-e-reports/id861018000" target="_blank" class="cta" title="Ver Projeto">VER PROJETO</a>
                         </div>
                     </div>
                 </div>
-
-               <!--  <div class="row-fluid p-absolute no-padding">
-                    <img src="img/app-broou-iphone.png" class="img-case-broou" alt="Projetos App Broou" width="470" height="328">
-                </div> -->
 
             </section>
             <!-- :case-2 -->
@@ -263,22 +279,20 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     </div>
                     <div class="col col-md-6">
                         <ul class="metodo-list">
-                            <li>Xô burocracia</li>
+                            <li>Sem burocracia</li>
                             <li>Prazo de projeto previsível</li>
                             <li>Estrutura necessária previsível</li>
                             <li>Co-criação = aprovação durante o processo</li>
                             <li>Equipe especializada e moldada ao desafio</li>
                             <li>Validação com usuários reais</li>
-                            <li>Resultados 100% mensureaveis</li>
+                            <li>Resultados 100% mensuráveis</li>
                         </ul>
-                        <a id="demo01" href="#animatedModal" class="cta" href="javascript:void(0);" title="Era iss oque procurava, entrar em contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 75}, 500);">"ERA ISSO QUE EU PROCURAVA"</a>
+                        <a class="cta" href="javascript:void(0);" title="Era iss oque procurava, entrar em contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 75}, 500);">QUERO SABER MAIS</a>
                     </div>
                 </div>
 
             </section>
             <!-- :metodo -->
-
-            
 
             <!-- connections: -->
             <section class="container" id="design-conections">
@@ -293,14 +307,33 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                             
                             <h3 class="case-project-name text-white">O Design como vantagem competitiva</h3>
                             <p class="default-text case-text-description text-white">Muito mais que um novo produto ou uma nova plataforma, inovação está cada vez mais relacionada ao processo. E o que o design te a ver co misso?</p>
-                            <a href="javascript:void(0);" class="cta" title="Ler Mais">LER MAIS</a>
-                            <a href="javascript:void(0);" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
+                            <!-- <a href="javascript:void(0);" class="cta" title="Ler Mais">LER MAIS</a> -->
+                            <a href="#animatedModal2" id="modal-video2" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
                         </div>
                     </div>
                     
                 </div>
             </section>
             <!-- :connections -->
+
+            <!-- modal 2: -->
+            <div id="animatedModal2" class="animateModal">
+
+                <a href="" class="close-animatedModal" title="fechar detalhes">X</a>
+
+                <!-- modal content: -->
+                <div class="modal-content">
+                    <!-- videoframe: -->
+                    <section class="container" id="semana-1">
+                        <div class="row-fluid">
+                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </section>
+                    <!-- :vieoframe -->
+                </div>
+                <!-- :modal content -->
+            </div>
+            <!-- :modal 2 -->
 
             <!-- idealizadores: -->
             <section class="container" id="idealizadores">
@@ -390,8 +423,8 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             
         </div>
         <!-- :main -->
-        
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
          <script src="https://www.youtube.com/iframe_api"></script>
         <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
@@ -429,7 +462,6 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             });
         }
 
-
         // Initialize YouTube API
        
         function initialize(){
@@ -457,11 +489,50 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
         // });
 
-        $('#play-video-optima-1').on('click', function () {
+        // $('#play-video-optima-1').on('click', function () {
 
-            player.playVideo();
+        //     player.playVideo();
 
+        // });
+
+        //Animate Modal
+        $("#modal-video1").animatedModal({
+            modalTarget:'animatedModal1',
+            animatedIn:'lightSpeedIn',
+            animatedOut:'bounceOutDown',
+            color:'#eeeeee',
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function(playVideo) {
+                    
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
         });
+        $("#modal-video2").animatedModal({
+            modalTarget:'animatedModal2',
+            animatedIn:'lightSpeedIn',
+            animatedOut:'bounceOutDown',
+            color:'#eeeeee',
+                beforeOpen: function() {
+                    console.log("The animation was called");
+                },           
+                afterOpen: function() {
+                    console.log("The animation is completed");
+                }, 
+                beforeClose: function() {
+                    console.log("The animation was called");
+                }, 
+                afterClose: function() {
+                    console.log("The animation is completed");
+                }
+        });
+        
         </script>
     </body>
 </html>
