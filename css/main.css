@@ -449,6 +449,7 @@ h1, h2, h3{
 .client-list-item{
 	float: left;
 	margin: 42px;
+	min-height: 80px
 }
 
 .client-list-item img{
@@ -517,6 +518,16 @@ h1, h2, h3{
 	display: block;
 	margin: 0 auto
 }
+.steps-line{
+	background: #acacac;
+	height: 1px;
+	width: 75%;
+	position: relative;
+	top: 50px;
+	left: 150px;
+	display: block;
+	z-index: 0
+}
 .step-item{
 	float: left;
 	width: 280px;
@@ -534,6 +545,8 @@ h1, h2, h3{
 	text-align: center;
 	float: left;
 	margin: 0 0 15px 70px;
+	position: relative;
+	z-index: 5
 }
 .step-title span{
 	font-size: 18px
@@ -885,7 +898,10 @@ h1, h2, h3{
 	}
 	.feature{
 		padding: 15px ;
-		margin-top: 50px
+		margin-top: 5px
+	}
+	.head-line{
+		margin-top: 25px;
 	}
 	#make-experience, #case-1, #case-2, #case-3{
 		height: auto !important
@@ -919,6 +935,7 @@ h1, h2, h3{
 	}
 	.metodo-list{
 		margin-top: 7%;
+		padding: 0 16%;
 	}
 	#design-conections .description-case{
 		margin: 0;
@@ -961,6 +978,9 @@ h1, h2, h3{
 	.step-title{
 		margin-left:35% 
 	}
+	.steps-line{
+		display: none;
+	}
 }
 @media only screen and (max-width: 340px) {
 	.feature{
@@ -969,13 +989,28 @@ h1, h2, h3{
 	h2{
 		font-size: 36px !important;
 	}
+	.description-case{
+		padding: 30px 40px
+	}
 	.idealizador-img img{
 		width: inherit;
 		height: inherit;
 	}
+	.frame-video-case-leve-me, #video-placeholder{
+		height: 300px
+	}
+	.bt-play-video{
+		top: 38%;
+		left: 38%;
+	}
 	.client-list{
 		width: 100%;
 		float: left;
+		padding: 0;
+		margin: 10px auto
+	}
+	#clientes .default-text{
+		margin: 20px 0
 	}
 	.frame-video-metodo {
 		width: 100%
@@ -984,8 +1019,15 @@ h1, h2, h3{
 		width: 100%;
 		padding: 0 10%
 	}
+	.step-title{
+		margin-left: 32%;
+	}
 	.step-item{
 		width: 100%;
+		min-height: 220px;
+	}
+	#metodo .cta{
+		margin: 10px
 	}
 	
 }

@@ -129,7 +129,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                             <p class="default-text case-client-name">OPTIMA</p>
                             <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
-                            <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a>
+                            <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a> -->
                         </div>
                     </div>
 
@@ -147,16 +147,16 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                             <p class="default-text case-client-name">OPTIMA</p>
                             <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
-                            <a href="javascript:void(0);" class="cta cta-play-video" id="play-video-optima-1" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
+                            <a href="javascript:void(0);" class="cta cta-play-video" id="play-video-optima-1" title="Play vídeo do evento">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
                         </div>
                     </div>
 
                     <div class="col col-md-6">
                         <div class="frame-video-case-leve-me">
                             <!-- video placeholder: -->
-                            <div id="video-placeholder"></div>
+                            <div id="video-placeholder" class="video-target" data-video-id="ux0p3OAnVdE"></div>
                             <!-- video placeholder: -->
-                            <span class="bt-play-video" id="play-video-optima-2"><i class="arrow-right"></i></span>
+                            <!-- <span class="bt-play-video" id="play-video-optima-2" ><i class="arrow-right"></i></span> -->
                         </div>
                     </div>
                    
@@ -173,7 +173,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <h3 class="case-project-name">Mobile App & Wearable</h3>
                         <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
                         <div class="box-cta">
-                            <a href="javascript:void(0);" class="cta" title="Ver Projeto">VER PROJETO</a>
+                            <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto">VER PROJETO</a> -->
                         </div>
                     </div>
                 </div>
@@ -191,6 +191,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     <p class="default-text">QUEM FAZ COM AGENTE</p>
 
                     <ul class="client-list">
+
                         <li class="client-list-item">
                             <img src="img/adobe-logo.png" alt="Adobe" width="69" height="80">
                         </li>
@@ -209,6 +210,12 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <li class="client-list-item">
                             <img src="img/porto-seguro-logo.png" alt="Porto Seguro" width="125" height="39">
                         </li>
+                        <!-- <li class="client-list-item">
+                            <img src="img/contaum-logo.png" alt="ContaUm" width="125" height="33">
+                        </li>
+                        <li class="client-list-item">
+                            <img src="img/xp-investimentos-logo.png" alt="XP Investimentos" width="125" height="33">
+                        </li> -->
                     </ul>
 
                 </div>
@@ -225,6 +232,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
                 <div class="row-fluid head-line">
                     <ul class="list-steps">
+                        <span class="steps-line"></span>
                         <li class="step-item">
                             <div class="step-title step-equipe">EQUIPE</div>
                             <p class="step-text">Selecionamos nossos MELHORES consultores de acordo com as necessidades do projeto.</p>
@@ -383,56 +391,13 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         </div>
         <!-- :main -->
         
-        <script src="js/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
+         <script src="https://www.youtube.com/iframe_api"></script>
         <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/jquery.backgroundvideo.min.js"></script> -->
-        <script src="https://www.youtube.com/iframe_api"></script>
         <!-- <script src="js/script.js"></script>  -->
         <script>
-
-        
-
-        // form play youtube
-        var player;
-
-        function onYouTubeIframeAPIReady() {
-            player = new YT.Player('', {
-                width: '100%',
-                height: '100%',
-                videoId: 'ux0p3OAnVdE',
-                playerVars: {
-                    color: 'white',
-                    playlist: ''
-                },
-                events: {
-                    onReady: initialize
-                }
-            });
-        }
-
-        function initialize(){
-
-        // Update the controls on load
-        updateTimerDisplay();
-        updateProgressBar();
-
-        // Clear any old interval.
-        clearInterval(time_update_interval);
-
-        // Start interval to update elapsed time display and
-        // the elapsed part of the progress bar every second.
-        time_update_interval = setInterval(function () {
-                updateTimerDisplay();
-                updateProgressBar();
-            }, 1000)
-
-        };
-
-        $('#play-video-optima-1, #play-video-optima-2').on('click', function () {
-            $('#play-video-optima-2').hide();
-            player.playVideo();
-        });
 
         // Controle do menu fixo superior
         var $document = $(document),
@@ -441,14 +406,62 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             className = 'nav-fixed';
 
         $document.scroll(function() {
-            if ($document.scrollTop() >= 75) {
-                $element.addClass(className);
-                $myBrand.attr('src', 'img/hand-made-ux-marca-negativo.png');
-                    } else {
-                        $element.removeClass(className);
-                        $myBrand.attr('src', 'img/hand-made-ux-marca.png');
-                    }
-                });
+        if ($document.scrollTop() >= 75) {
+            $element.addClass(className);
+            $myBrand.attr('src', 'img/hand-made-ux-marca-negativo.png');
+                } else {
+                    $element.removeClass(className);
+                    $myBrand.attr('src', 'img/hand-made-ux-marca.png');
+                }
+            });
+
+
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('video-placeholder', {
+                width: 720,
+                height: 500,
+                videoId: 'ux0p3OAnVdE',
+                events: {
+                    onReady: initialize
+                }
+            });
+        }
+
+
+        // Initialize YouTube API
+       
+        function initialize(){
+
+            // Update the controls on load
+            updateTimerDisplay();
+            updateProgressBar();
+
+            // Clear any old interval.
+            clearInterval(time_update_interval);
+
+            // Start interval to update elapsed time display and
+            // the elapsed part of the progress bar every second.
+            time_update_interval = setInterval(function () {
+                updateTimerDisplay();
+                updateProgressBar();
+            }, 1000);
+        }
+
+        // $('.video-target').on('click', function () {
+
+        //     var url = $(this).attr('data-video-id');
+
+        //     player.cueVideoById(url);
+
+        // });
+
+        $('#play-video-optima-1').on('click', function () {
+
+            player.playVideo();
+
+        });
         </script>
     </body>
 </html>
