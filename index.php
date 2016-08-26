@@ -46,7 +46,7 @@
         <!-- End Google Tag Manager -->
 
         <!-- Hotjar Tracking Code for http://www.handmadeux.com.br -->
-        <!-- <script>
+        <script>
             (function(h,o,t,j,a,r){
                 h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
                 h._hjSettings={hjid:250158,hjsv:5};
@@ -55,7 +55,7 @@
                 r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
                 a.appendChild(r);
             })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-        </script> -->
+        </script>
 
 
     </head>
@@ -75,14 +75,17 @@
                             <li class="top-nav-item">
                                 <a href="javascript:void(0);" title="A Mágica" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);">A Mágica</a>
                             </li>
+
+
                             <li class="top-nav-item">
                                 <a href="javascript:void(0);" title="Quem faz com a gente" onclick="$('html,body').animate({scrollTop: $('#clientes').offset().top - 75}, 500);">Clientes</a>
                             </li>
-                            <li class="top-nav-item">
-                                <a href="javascript:void(0);" title="Nosso Time" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 75}, 500);">Equipe</a>
-                            </li>
+                            
                             <li class="top-nav-item">
                                 <a href="javascript:void(0);" title="Iniciativas" onclick="$('html,body').animate({scrollTop: $('#design-conections').offset().top - 75}, 500);">Iniciativas</a>
+                            </li>
+                            <li class="top-nav-item">
+                                <a href="javascript:void(0);" title="Nosso Time" onclick="$('html,body').animate({scrollTop: $('#idealizadores').offset().top - 75}, 500);">Equipe</a>
                             </li>
                             <li class="top-nav-item">
                                 <a href="javascript:void(0);" title="Contato" onclick="$('html,body').animate({scrollTop: $('#contato').offset().top - 75}, 500);">Contato</a>
@@ -127,7 +130,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     <div class="col col-md-4">
                         <div class="description-case">
                             <p class="default-text case-client-name">OTIMA</p>
-                            <h3 class="case-project-name">Case App Leve-me - OTIMA</h3>
+                            <h3 class="case-project-name">Digital Transformation Strategy &amp; Mobile App</h3>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
                             <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a> -->
                             <a class="cta cta-play-video play-inverse" title="Play vídeo do evento" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
@@ -146,7 +149,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <!-- videoframe: -->
                         <section class="container" id="semana-1">
                             <div class="row-fluid">
-                            <h3 class="case-project-name">Digital Transformation Strategy &amp; Mobile App</h3>
+                            <h3 class="case-project-name">Case App Leve-me - OTIMA</h3>
                             <div id="video-target-test"></div>
                             <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
                             <!-- <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen ></iframe> -->
@@ -493,39 +496,39 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                 }
         });
 
-      var tag = document.createElement('script');
+      // var tag = document.createElement('script');
 
-      tag.src = "https://www.youtube.com/iframe_api";
-      var firstScriptTag = document.getElementsByTagName('script')[0];
-      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+      // tag.src = "https://www.youtube.com/iframe_api";
+      // var firstScriptTag = document.getElementsByTagName('script')[0];
+      // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 
      
-      var player;
-      function onYouTubeIframeAPIReady() {
-        player = new YT.Player('video-target-test', {
-          height: '500',
-          width: '100%',
-          videoId: 'ux0p3OAnVdE',
-          events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
-          }
-        });
-      }
+      // var player;
+      // function onYouTubeIframeAPIReady() {
+      //   player = new YT.Player('video-target-test', {
+      //     height: '500',
+      //     width: '100%',
+      //     videoId: 'ux0p3OAnVdE',
+      //     events: {
+      //       'onReady': onPlayerReady,
+      //       'onStateChange': onPlayerStateChange
+      //     }
+      //   });
+      // }
 
       
-      function onPlayerReady(event) {
-        event.target.playVideo();
-      }
+      // function onPlayerReady(event) {
+      //   event.target.playVideo();
+      // }
 
       
-      var done = false;
-      function onPlayerStateChange(event) {
-        if (event.data == YT.PlayerState.PLAYING && !done) {
-          setTimeout(stopVideo, 6000);
-          done = true;
-        }
-      }
+      // var done = false;
+      // function onPlayerStateChange(event) {
+      //   if (event.data == YT.PlayerState.PLAYING && !done) {
+      //     setTimeout(stopVideo, 6000);
+      //     done = true;
+      //   }
+      // }
         
         </script>
     </body>
