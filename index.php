@@ -39,13 +39,13 @@
         <link rel="stylesheet" href="css/main.css">
         <!-- Google Tag Manager -->
         
-        <script>
+       <!--  <script>
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
                 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
                 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
             })(window,document,'script','dataLayer','GTM-WX3C4Q');
-        </script>
+        </script> -->
         <!-- End Google Tag Manager -->
 
         <!-- Hotjar Tracking Code for http://www.handmadeux.com.br -->
@@ -380,30 +380,44 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             <!-- :idealizadores -->
 
             <!-- contato: -->
-            <section class="container" id="contato" name="contact">
+            <section class="container" id="contato">
                 <div class="row-fluid">
                     
                     <h2 class="default-text head-line">CONTATO</h2></br>
                     <h2 class="title-section head-line">Entre em contato</br> a gente</h2>
 
-                    <form name="contact-fomr" method="post" class="contact-form">
+                    <form id="contact" name="contact" method="post" class="contact-form">
                         
-                        <label for="name">
-                            <input class="input-full" type="text" name="name" value="" placeholder="Nome">
+                        <label for="name" id="name">
+                            <input class="input-full" type="text" name="name" id="name" value="" placeholder="Nome">
                         </label>
-                        <label for="email">
-                            <input class="input-full" type="email" name="email" value="" placeholder="E-mail">
+                        <label for="email" id="email">
+                            <input class="input-full" type="email" name="email" id="email" value="" placeholder="E-mail">
                         </label>
-                        <label for="msg">
-                            <textarea class="input-full" name="msg" value="" placeholder="Mensagem"></textarea> 
+                        <label for="phone" id="phone">
+                            <input class="input-full" type="tel" name="phone" id="phone" value="" placeholder="Telefone">
                         </label>
-                        <label for="Captcha" id="captcha">Name the small house pet that says "<i>meow</i>"<span class="required">*</span></label>
-                        <input type="text" name="captcha" value="" required/>
+                        <label for="message" id="message">
+                            <textarea class="input-full" name="message" id="message" value="" placeholder="Mensagem"></textarea> 
+                        </label>
+                       
                         <label class="box-cta">
-                            <input type="submit" name="enviar" value="ENVIAR" class="cta">
+                            <input id="submit" type="submit" name="submit" value="ENVIAR" class="cta">
                         </label>
 
                     </form>
+
+                    <div id="success">
+                        <span>
+                            <p>Sua mensagem foi enviada com sucesso! Entraremos em contato em breve, obrigado.</p>
+                        </span>
+                    </div>
+
+                    <div id="error">
+                        <span>
+                            <p>Algo deu errado. Tente atualizar a página e enviar novamente ;)</p>
+                        </span>
+                    </div>
 
                 </div>
             </section>
@@ -437,6 +451,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         <script src="js/jquery.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
+        <script src="js/validate.js"></script>
         <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
         <script src="js/owl.carousel.min.js"></script>
@@ -445,10 +460,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         <script src="js/jquery.backgroundvideo.min.js"></script> -->
         <!-- <script src="js/script.js"></script>  -->
         <script>
-        // Validate form
-        jQuery.validator.addMethod('answercheck', function (value, element) {
-            return this.optional(element) || /^\bcat\b$/.test(value);
-        }, "type the correct answer -_-");
+
         // Controle do menu fixo superior
         var $document = $(document),
             $myBrand = $('.brand-img'),

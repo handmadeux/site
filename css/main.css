@@ -823,6 +823,35 @@ h1, h2, h3{
    -moz-appearance: none;
    appearance: none
 }
+
+.contact-form .erro{
+	margin: 8px 0 0 0;
+	color: #c0392b
+}
+#success, #error {
+    display:none;
+    float: left;
+    width: 100%;
+    text-align:center;
+    font-size: 16px;
+}
+#success span, #erro span {
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size: 16px;
+}
+#success span p, #error span p {
+    text-align:center;
+    font-size: 16px;
+}
+#success span p {
+  color:#9bd32d;
+}
+#error span p {
+  color:#c0392b;
+}
+
 #footer{
 	background: #fff;
 	height: auto;
