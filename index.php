@@ -13,6 +13,7 @@
         <meta name="Language" content="pt-br">
         <meta name="rating" content="General">
         <link rel="canonical" href="http://www.handmadeux.com.br"/>
+        <meta name="google-site-verification" content="VRp6lRUQaVDsbNGyKzJ7IJNvpGgYfoKduLod9GL0NcY" />
 
         <!-- for facebook -->
         <meta property="og:type" content="website" />
@@ -33,6 +34,8 @@
         <link href='https://fonts.googleapis.com/css?family=Montserrat:200,400,700' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,200' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/main.css">
         <!-- Google Tag Manager -->
         
@@ -214,22 +217,22 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
                     <ul class="client-list">
 
-                        <li class="client-list-item">
+                        <li class="client-list-item item">
                             <img src="img/adobe-logo.png" alt="Adobe" width="69" height="80">
                         </li>
-                        <li class="client-list-item">
+                        <li class="client-list-item item">
                             <img src="img/net-logo.png" alt="NET" width="125" height="30">
                         </li>
-                        <li class="client-list-item">
+                        <li class="client-list-item item">
                             <img src="img/optima-logo.png" alt="Optima" width="125" height="32">
                         </li>
-                        <li class="client-list-item">
+                        <li class="client-list-item item">
                             <img src="img/broou-logo.png" alt="Broou" width="128" height="60">
                         </li>
-                        <li class="client-list-item">
+                        <li class="client-list-item item">
                             <img src="img/amadre-logo.png" alt="A Madre" width="73" height="82">
                         </li>
-                        <li class="client-list-item">
+                        <li class="client-list-item item">
                             <img src="img/porto-seguro-logo.png" alt="Porto Seguro" width="125" height="39">
                         </li>
                         <!-- <li class="client-list-item">
@@ -377,7 +380,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             <!-- :idealizadores -->
 
             <!-- contato: -->
-            <section class="container" id="contato">
+            <section class="container" id="contato" name="contact">
                 <div class="row-fluid">
                     
                     <h2 class="default-text head-line">CONTATO</h2></br>
@@ -394,6 +397,8 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <label for="msg">
                             <textarea class="input-full" name="msg" value="" placeholder="Mensagem"></textarea> 
                         </label>
+                        <label for="Captcha" id="captcha">Name the small house pet that says "<i>meow</i>"<span class="required">*</span></label>
+                        <input type="text" name="captcha" value="" required/>
                         <label class="box-cta">
                             <input type="submit" name="enviar" value="ENVIAR" class="cta">
                         </label>
@@ -430,14 +435,20 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         </div>
         <!-- :main -->
         <script src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
+        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
         <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
         <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
         <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/jquery.backgroundvideo.min.js"></script> -->
         <!-- <script src="js/script.js"></script>  -->
         <script>
-
+        // Validate form
+        jQuery.validator.addMethod('answercheck', function (value, element) {
+            return this.optional(element) || /^\bcat\b$/.test(value);
+        }, "type the correct answer -_-");
         // Controle do menu fixo superior
         var $document = $(document),
             $myBrand = $('.brand-img'),
@@ -494,6 +505,15 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                 afterClose: function() {
                     console.log("The animation is completed");
                 }
+        });
+
+        $(document).ready(function() {
+            $(".client-list").owlCarousel({
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+                items : 5,
+                itemsDesktop : [1199,3],
+                itemsDesktopSmall : [979,3]
+            });
         });
 
       // var tag = document.createElement('script');
