@@ -38,28 +38,14 @@
         <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/main.css">
         <!-- Google Tag Manager -->
-        
-       <!--  <script>
-            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-                new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-                j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-                '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-WX3C4Q');
-        </script> -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WX3C4Q"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-WX3C4Q');</script>
         <!-- End Google Tag Manager -->
-
-        <!-- Hotjar Tracking Code for http://www.handmadeux.com.br -->
-        <script>
-            (function(h,o,t,j,a,r){
-                h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-                h._hjSettings={hjid:250158,hjsv:5};
-                a=o.getElementsByTagName('head')[0];
-                r=o.createElement('script');r.async=1;
-                r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-                a.appendChild(r);
-            })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-        </script>
-
 
     </head>
     <body itemscope itemtype="http://schema.org/Organization">
@@ -154,8 +140,8 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                             <div class="row-fluid">
                             <h3 class="case-project-name">Case App Leve-me - OTIMA</h3>
                             <div id="video-target-test"></div>
-                            <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
-                            <!-- <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen ></iframe> -->
+                            
+                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen ></iframe>
                             </div>
                         </section>
                         <!-- :vieoframe -->
@@ -167,8 +153,6 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             </section>
             <!-- :make-experience -->
 
-          
-
             <!-- case-2: -->
             <section class="container" id="case-2">
                 
@@ -176,11 +160,14 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     <div class="description-case">
                         <p class="default-text case-client-name">BROOU</p>
                         <h3 class="case-project-name">Mobile App & Wearable</h3>
-                        <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais.</p>
-                        <div class="box-cta">
-                            <a href="https://itunes.apple.com/br/app/broou-surf-forecast-e-reports/id861018000" target="_blank" class="cta" title="Ver Projeto">VER PROJETO</a>
-                        </div>
+                        <p class="default-text case-text-description">broou surf forecast e reports: o app que fala a lingua dos surfistas.</p>
+
                     </div>
+
+                    <div class="box-cta">
+                            <a href="https://itunes.apple.com/br/app/broou-surf-forecast-e-reports/id861018000" target="_blank" class="cta" title="Ver Projeto iOS">iOS</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.broou.brooucast" target="_blank" class="cta" title="Ver Projeto Android">Android</a>
+                        </div>
                 </div>
 
             </section>
@@ -244,18 +231,18 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         </li>
                         <li class="step-item">
                             <div class="step-title color-green">SEMANA <span>#02</span></div>
-                            <p class="step-text">Co-criamos: Insights, protótipo e validação com usuários reais.</br>Haja Post-it!</p>
+                            <p class="step-text">Co-criamos: Insights, protótipo e validação com usuários reais.</p>
                         </li>
                         <li class="step-item">
                             <div class="step-title color-green">SEMANA <span>#03</span></div>
-                            <p class="step-text">Feedbacks, ajustes e uma solução pronta para o mercado. e o melhor: kpi‘s 100% mensuráveis.</p>
+                            <p class="step-text">Feedbacks, ajustes e uma solução pronta para o mercado. e o melhor: tudo 100% mensurável.</p>
                         </li>
                     </ul>
                 </div>
                     
                 <div class="row-fluid">
                     <div class="row-fluid head-line">
-                        <h2 class="title-section"><small>Vantagens de fazer a mágica acontecer</small></h2>
+                        <h2 class="title-section"><small>Vantagens do modelo de trabalho</small></h2>
                     </div>
                     <div class="col col-md-6">
                         <div class="frame-video-metodo pull-right">
@@ -266,6 +253,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <ul class="metodo-list">
                             <li>Sem burocracia</li>
                             <li>Prazo de projeto previsível</li>
+                            <li>Custo previsível</li>
                             <li>Estrutura necessária previsível</li>
                             <li>Co-criação = aprovação durante o processo</li>
                             <li>Equipe especializada e moldada ao desafio</li>
@@ -291,9 +279,11 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <div class="description-case">
                             
                             <h3 class="case-project-name text-white">O Design como vantagem competitiva</h3>
-                            <p class="default-text case-text-description text-white">Muito mais que um novo produto ou uma nova plataforma, inovação está cada vez mais relacionada ao processo. E o que o design te a ver co misso?</p>
+                            <p class="default-text case-text-description text-white">Muito mais do que um novo produto ou uma nova plataforma, inovação está cada vez mais relacionada ao processo. E o que o design tem a ver com isso?
+
+Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de novembro de 2015, que atraiu profissionais ligados a Inovação, Design e Design thinking em São Paulo. O Design Connections é um evento exclusivo para convidados e o primeiro de uma série de eventos realizados pela Handmade.</p>
                             <!-- <a href="javascript:void(0);" class="cta" title="Ler Mais">LER MAIS</a> -->
-                            <a href="#animatedModal2" id="modal-video2" class="cta cta-play-video" title="Play vídeo do evento">Vídeo do evento <span><i class="arrow-right"></i></span></a>
+                            <!-- <a href="#animatedModal2" id="modal-video2" class="cta cta-play-video" title="Veja como foi o evento">Veja como foi o evento<span><i class="arrow-right"></i></span></a> -->
                         </div>
                     </div>
                     
@@ -334,7 +324,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         
                         <div class="col col-md-6 idealizador-info">
                             <h3 class="idealizador-name">Luis Felipe Fernandes</h3>
-                            <p class="idealizador-bio text-default">Luis Felipe é UX Designer há vários anos, desenhando produtos e campanhas digitais para grandes marcas. Formado em Publicidade pela PUC-Campinas e com MBA em Gestão pela FGV, foi premiado como Melhor Profissional de UX do Mercado Digital em 2014 e 2015, com passagens pelas agências Casa, JWT e AlmapBBDO. Atuou na área de inovação do Banco Itaú e é também Professor de UX na Fiap e UX Academy.</p>
+                            <p class="idealizador-bio text-default">Luis Felipe é UX Designer há vários anos, desenhando produtos e campanhas digitais para grandes marcas. Formado em Publicidade pela PUC-Campinas e com MBA em Gestão pela FGV, foi premiado como Melhor Profissional de UX do Mercado Digital em 2014 e 2015, com passagens pelas agências Casa, JWT e AlmapBBDO. Atuou na área de inovação do Banco Itaú e é também Professor de UX na FIAP, Escola Britânica de Artes e Criatividade e UX Academy.</p>
                         </div>
                     </div>
 
@@ -496,12 +486,12 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
         });
 
         $(document).ready(function() {
-            $(".client-list").owlCarousel({
-                autoPlay: 3000, //Set AutoPlay to 3 seconds
-                items : 5,
-                itemsDesktop : [1199,3],
-                itemsDesktopSmall : [979,3]
-            });
+            // $(".client-list").owlCarousel({
+            //     autoPlay: 3000, //Set AutoPlay to 3 seconds
+            //     items : 5,
+            //     itemsDesktop : [1199,3],
+            //     itemsDesktopSmall : [979,3]
+            // });
         });
 
       // var tag = document.createElement('script');

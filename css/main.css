@@ -437,9 +437,15 @@ h1, h2, h3{
 	color: #ffffff;
 	text-align: center;
 }
-
+#case-2 .box-cta{
+	margin: 0 auto;
+	float: none;
+	display: block;
+	width: 400px
+}
 #case-2 .cta{
-	margin: 40px auto 0 auto
+	margin: 0 10px;
+	float: left;
 }
 #clientes{
 	background: #eeeeee;
@@ -507,7 +513,6 @@ h1, h2, h3{
 .metodo-list{
 	float: left;
 	width: 100%;
-	margin-bottom: 20px;
 	padding: 0 10%;
 }
 .metodo-list li{
@@ -743,7 +748,7 @@ h1, h2, h3{
 
 }
 #design-conections .description-case{
-	margin-top: 140px;
+	margin-top: 85px;
 }
 #design-conections .case-text-description{
 	margin-bottom: 40px;
