@@ -42,7 +42,7 @@ $(function() {
             $(form).ajaxSubmit({
                 type:"POST",
                 data: $(form).serialize(),
-                url:"http://localhost:8888/handmadeux/process.php",
+                url:"process.php",
                 success: function() {
                     $('#contact :input').attr('disabled', 'disabled');
                     $('#contact').fadeTo( "slow", 0.15, function() {

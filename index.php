@@ -104,8 +104,8 @@
                 <!-- feature: -->
                 <div class="feature">
                     
-                    <h2 class="feature-text text-white">Criamos experiências.</br><small>E fazemos isso juntos.</small></h2>
-                    <p class="feature-text feature-text-paragraph text-white">Entendemos seu problema. Entendemos seu usuário. Criamos. Validamos. <br/>
+                    <h2 class="feature-text text-white">Criamos experiências memoráveis.</br>E fazemos isso juntos.</h2>
+                    <p class="feature-text feature-text-paragraph text-white">Entendemos seu problema. Entendemos seu público. Criamos. Validamos. <br/>
 E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos.</p>
                     <div class="box-cta">
                         <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);" class="feature-cta" title="Entenda a Mágica">ENTENDA A MÁGICA</a>
@@ -133,8 +133,8 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                     <div class="col col-md-4">
                         <div class="description-case">
                             <p class="default-text case-client-name">OTIMA</p>
-                            <h3 class="case-project-name">Digital Transformation Strategy &amp; Mobile App</h3>
-                            <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
+                            <h3 class="case-project-name">Estratégia de Transformação Digital &amp; Mobile App</h3>
+                            <p class="default-text case-text-description">Que o trânsito é um dos grandes problemas de São Paulo, isso já não é nenhuma novidade.<br/><br/> Mas que tal usar a bike ou transporte público para fugir dele e ainda ganhar prêmios por isso? Essa é a proposta do Leve-me, um app com a assinatura Handmade!</p>
                             <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a> -->
                             <a class="cta cta-play-video play-inverse" title="Play vídeo do evento" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
                         </div>
@@ -167,31 +167,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
             </section>
             <!-- :make-experience -->
 
-            <!-- case-1: -->
-            <!-- <section class="container" id="case-1">
-                <div class="row-fluid no-padding">
-                    
-                    <div class="col col-md-6">
-                        <div class="description-case">
-                            <p class="default-text case-client-name">OTIMA</p>
-                            <h3 class="case-project-name">Digital Transformation Strategy & Mobile App</h3>
-                            <p class="default-text case-text-description">Com resultados 100% mensuráveis e qualidade garantida pela validação com usuários reais. Conheça o que estamos criando.</p>
-                            <a href="javascript:void(0);" class="cta cta-play-video" id="play-video-optima-1" title="Play vídeo do evento">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
-                        </div>
-                    </div>
-
-                    <div class="col col-md-6">
-                        <div class="frame-video-case-leve-me">
-                            
-                            <div id="video-placeholder" class="video-target" data-video-id="ux0p3OAnVdE"></div>
-                            
-                            <span class="bt-play-video" id="play-video-optima-2" ><i class="arrow-right"></i></span>
-                        </div>
-                    </div>
-                   
-                </div>
-            </section> -->
-            <!-- :case-1 -->
+          
 
             <!-- case-2: -->
             <section class="container" id="case-2">
