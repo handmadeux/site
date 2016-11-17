@@ -1,0 +1,9 @@
+<Files ~ "^\.(htaccess|htpasswd)$">
+deny from all
+</Files>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(handmadeux\.com\.br)(:80)? [NC]
+RewriteRule ^(.*) http://www.handmadeux.com.br/$1 [R=301,L]
+order deny,allow
+
+#by Huxley Dias

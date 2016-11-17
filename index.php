@@ -138,7 +138,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                         <!-- videoframe: -->
                         <section class="container" id="semana-1">
                             <div class="row-fluid">
-                            <h3 class="case-project-name">Case App Leve-me - OTIMA</h3>
+                            
                             <div id="video-target-test"></div>
                             
                             <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen ></iframe>
