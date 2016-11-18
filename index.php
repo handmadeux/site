@@ -352,19 +352,19 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                     <h2 class="default-text head-line">CONTATO</h2></br>
                     <h2 class="title-section head-line">Entre em contato</br> a gente</h2>
 
-                    <form id="contact" name="contact" method="post" class="contact-form">
-                        
+                    <form id="ajax-contact" name="contact" class="contact-form" method="post" action="mailer.php">
+                        <div id="form-messages"></div>
                         <label for="name" id="name">
-                            <input class="input-full" type="text" name="name" id="name" value="" placeholder="Nome">
+                            <input class="input-full" type="text" id="name" name="name" required value="" placeholder="Nome">
                         </label>
                         <label for="email" id="email">
-                            <input class="input-full" type="email" name="email" id="email" value="" placeholder="E-mail">
+                            <input class="input-full" type="email" value="" placeholder="E-mail" type="email" id="email" name="email" required>
                         </label>
                         <label for="phone" id="phone">
-                            <input class="input-full" type="tel" name="phone" id="phone" value="" placeholder="Telefone">
+                            <input class="input-full" type="tel" id="tel" name="tel" value="" placeholder="Telefone" required>
                         </label>
                         <label for="message" id="message">
-                            <textarea class="input-full" name="message" id="message" value="" placeholder="Mensagem"></textarea> 
+                            <textarea class="input-full" id="message" name="message" value="" placeholder="Mensagem" required></textarea> 
                         </label>
                        
                         <label class="box-cta">
@@ -372,18 +372,6 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                         </label>
 
                     </form>
-
-                    <div id="success">
-                        <span>
-                            <p>Sua mensagem foi enviada com sucesso! Entraremos em contato em breve, obrigado.</p>
-                        </span>
-                    </div>
-
-                    <div id="error">
-                        <span>
-                            <p>Algo deu errado. Tente atualizar a página e enviar novamente ;)</p>
-                        </span>
-                    </div>
 
                 </div>
             </section>
@@ -417,10 +405,11 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
         <script src="js/jquery.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-        <script src="js/validate.js"></script>
+        <!-- <script src="js/validate.js"></script> -->
         <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <script src="js/app.js"></script>
         <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
         <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
         <script src="js/jquery.backgroundvideo.min.js"></script> -->
