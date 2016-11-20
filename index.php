@@ -405,15 +405,11 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
         <script src="js/jquery.min.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
         <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-        <!-- <script src="js/validate.js"></script> -->
         <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/app.js"></script>
-        <!-- <script src="https://www.youtube.com/iframe_api"></script> -->
-        <!-- <script src="js/jquery.scrollTo-1.4.3.1-min.js"></script>
-        <script src="js/jquery.backgroundvideo.min.js"></script> -->
-        <!-- <script src="js/script.js"></script>  -->
+        
         <script>
 
         // Controle do menu fixo superior
@@ -472,51 +468,7 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                 afterClose: function() {
                     console.log("The animation is completed");
                 }
-        });
-
-        $(document).ready(function() {
-            // $(".client-list").owlCarousel({
-            //     autoPlay: 3000, //Set AutoPlay to 3 seconds
-            //     items : 5,
-            //     itemsDesktop : [1199,3],
-            //     itemsDesktopSmall : [979,3]
-            // });
-        });
-
-      // var tag = document.createElement('script');
-
-      // tag.src = "https://www.youtube.com/iframe_api";
-      // var firstScriptTag = document.getElementsByTagName('script')[0];
-      // firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-     
-      // var player;
-      // function onYouTubeIframeAPIReady() {
-      //   player = new YT.Player('video-target-test', {
-      //     height: '500',
-      //     width: '100%',
-      //     videoId: 'ux0p3OAnVdE',
-      //     events: {
-      //       'onReady': onPlayerReady,
-      //       'onStateChange': onPlayerStateChange
-      //     }
-      //   });
-      // }
-
-      
-      // function onPlayerReady(event) {
-      //   event.target.playVideo();
-      // }
-
-      
-      // var done = false;
-      // function onPlayerStateChange(event) {
-      //   if (event.data == YT.PlayerState.PLAYING && !done) {
-      //     setTimeout(stopVideo, 6000);
-      //     done = true;
-      //   }
-      // }
-        
+        });  
         </script>
     </body>
 </html>

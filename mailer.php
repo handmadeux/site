@@ -39,17 +39,18 @@
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
-            http_response_code(200);
+            header('HTTP/1.0 200');
             echo "Obrigado! Sua mensagem foi enviada.";
         } else {
             // Set a 500 (internal server error) response code.
-            http_response_code(500);
+            header('HTTP/1.0 400 Page not found');
             echo "Oops! Algo deu errado, não conseguimos enviar sua mensagem.";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
-        http_response_code(403);
+        
+        header('HTTP/1.0 403');
         echo "Tivemos um problema com seu envio, por favor tente novamente.";
     }
 
