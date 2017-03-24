@@ -92,7 +92,7 @@
                     
                     <h2 class="feature-text text-white">Criamos experiências memoráveis.</br>E fazemos isso juntos.</h2>
                     <p class="feature-text feature-text-paragraph text-white">Entendemos seu problema. Entendemos seu público. Criamos. Validamos. <br/>
-E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos.</p>
+E chegamos a uma solução mensurável. Tudo isso em 4 semanas. Tudo isso juntos.</p>
                     <div class="box-cta">
                         <a href="javascript:void(0);" onclick="$('html,body').animate({scrollTop: $('#metodo').offset().top - 75}, 500);" class="feature-cta" title="Entenda a Mágica">ENTENDA A MÁGICA</a>
                     </div>
@@ -180,30 +180,40 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
 
                     <ul class="client-list">
 
-                        <li class="client-list-item item">
+                        <li class="client-list-item">
                             <img src="img/adobe-logo.png" alt="Adobe" width="69" height="80">
                         </li>
-                        <li class="client-list-item item">
+                        <li class="client-list-item">
                             <img src="img/net-logo.png" alt="NET" width="125" height="30">
                         </li>
-                        <li class="client-list-item item">
+                        <li class="client-list-item">
                             <img src="img/optima-logo.png" alt="Optima" width="125" height="32">
                         </li>
-                        <li class="client-list-item item">
+                        <li class="client-list-item">
                             <img src="img/broou-logo.png" alt="Broou" width="128" height="60">
                         </li>
-                        <li class="client-list-item item">
-                            <img src="img/amadre-logo.png" alt="A Madre" width="73" height="82">
-                        </li>
-                        <li class="client-list-item item">
+                        <li class="client-list-item">
                             <img src="img/porto-seguro-logo.png" alt="Porto Seguro" width="125" height="39">
                         </li>
-                        <!-- <li class="client-list-item">
-                            <img src="img/contaum-logo.png" alt="ContaUm" width="125" height="33">
+                        <li class="client-list-item">
+                            <img src="img/acesso.svg" alt="ACESSO" width="160" height="">
                         </li>
                         <li class="client-list-item">
-                            <img src="img/xp-investimentos-logo.png" alt="XP Investimentos" width="125" height="33">
-                        </li> -->
+                            <img src="img/xp-investimentos.svg" alt="XP Investimentos" width="180" height="">
+                        </li>
+                        <li class="client-list-item">
+                            <img src="img/amadre-logo.png" alt="A Madre" width="73" height="82">
+                        </li>
+                        <li class="client-list-item">
+                            <img src="img/conecta.svg" alt="Conecta" width="160" height="">
+                        </li>
+                        <li class="client-list-item">
+                            <img src="img/contaum.svg" alt="ContaUm" width="180" height="">
+                        </li>
+                        <li class="client-list-item">
+                            <img src="img/porto-faz.svg" alt="Porto Seguro FAZ" width="180" height="">
+                        </li>
+
                     </ul>
 
                 </div>
@@ -215,7 +225,7 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                 
                 <div class="row-fluid head-line">
                     <p class="text-default">MÉTODO</p>
-                    <h2 class="title-section">Inovação em estratégia mobile</br> em 15 dias</h2>
+                    <h2 class="title-section">Inovação em estratégia mobile</br> em 20 dias</h2>
                 </div>
 
                 <div class="row-fluid head-line">
@@ -226,15 +236,15 @@ E chegamos a uma solução mensurável. Tudo isso em 3 semanas. Tudo isso juntos
                             <p class="step-text">Selecionamos nossos MELHORES consultores de acordo com as necessidades do projeto.</p>
                         </li>
                         <li class="step-item">
-                        <div class="step-title color-green">SEMANA <span>#01</span></div>
+                        <div class="step-title color-green">SEMANA <span>#1</span></div>
                             <p class="step-text">Imergimos no negócio, no target e nas pistas que sua base de dados pode dar.</p>
                         </li>
                         <li class="step-item">
-                            <div class="step-title color-green">SEMANA <span>#02</span></div>
+                            <div class="step-title color-green">SEMANA <span>#2</span></div>
                             <p class="step-text">Co-criamos: Insights, protótipo e validação com usuários reais.</p>
                         </li>
                         <li class="step-item">
-                            <div class="step-title color-green">SEMANA <span>#03</span></div>
+                            <div class="step-title color-green">SEMANA <span>#3 e 4</span></div>
                             <p class="step-text">Feedbacks, ajustes e uma solução pronta para o mercado. e o melhor: tudo 100% mensurável.</p>
                         </li>
                     </ul>
@@ -350,9 +360,9 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                 <div class="row-fluid">
                     
                     <h2 class="default-text head-line">CONTATO</h2></br>
-                    <h2 class="title-section head-line">Entre em contato</br> a gente</h2>
+                    <h2 class="title-section head-line">contato@handmadeux.com.br</h2>
 
-                    <form id="ajax-contact" name="contact" class="contact-form" method="post" action="mailer.php">
+                   <!--  <form id="ajax-contact" name="contact" class="contact-form" method="post" action="mailer.php">
                         <div id="form-messages"></div>
                         <label for="name" id="name">
                             <input class="input-full" type="text" id="name" name="name" required value="" placeholder="Nome">
@@ -371,7 +381,7 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                             <input id="submit" type="submit" name="submit" value="ENVIAR" class="cta">
                         </label>
 
-                    </form>
+                    </form> -->
 
                 </div>
             </section>
@@ -469,6 +479,29 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                     console.log("The animation is completed");
                 }
         });  
+        // controle carousel
+        $('.client-list').owlCarousel({
+            loop:true,
+            margin:10,
+            responsiveClass:true,
+            loop: true,
+            autoPlay: true,
+            responsive:{
+                0:{
+                    items:1,
+                    nav:true
+                },
+                600:{
+                    items:3,
+                    nav:false
+                },
+                1000:{
+                    items:5,
+                    nav:true,
+                    loop:false
+                }
+            }
+        })
         </script>
     </body>
 </html>

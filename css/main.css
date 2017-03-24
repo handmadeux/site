@@ -464,17 +464,22 @@ h1, h2, h3{
 	padding: 0 40px;
 	margin: 20px auto
 }
+/*js class*/
+.owl-item{
+
+}
 .client-list-item{
-	float: left;
-	margin: 38px;
-	min-height: 80px
+	margin: 38px auto;
+	min-height: 80px;
+	display: block;
+	/*width: 130px;*/
 }
 
 .client-list-item img{
 	display: block;
 	margin: 0 auto
 }
-.client-list-item:nth-child(2) img {
+/*.client-list-item:nth-child(2) img {
 	margin-top: 20px !important;
 }
 .client-list-item:nth-child(3) img {
@@ -488,7 +493,7 @@ h1, h2, h3{
 }
 .client-list-item:nth-child(6) img {
 	margin-top: 10px !important;
-}
+}*/
 
 #metodo{
 	height: auto;
