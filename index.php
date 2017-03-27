@@ -153,6 +153,31 @@ E chegamos a uma solução mensurável. Tudo isso em 4 semanas. Tudo isso juntos
             </section>
             <!-- :make-experience -->
 
+            <!-- make-experience 2: 
+            <section class="container" id="make-experience">
+               
+                <div class="row-fluid">
+                    
+
+                    <div class="col col-md-4">
+                        <div class="description-case">
+                            <p class="default-text case-client-name">ContaUm</p>
+                            <h3 class="case-project-name">Como levar gestão financeira aos desbancarizados?</h3>
+                            <p class="default-text case-text-description">Esse era o desafio da Conta Um, um cartão pré-pago para as pessoas de baixa renda que nunca tiveram acesso aos termos e serviços bancários.</p>
+                            
+                            <a class="cta cta-play-video play-inverse" title="Play vídeo do case da ContaUm" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
+                        </div>
+                    </div>
+
+                    <div class="col col-md-8">
+                        <img class="img-case-destaque" src="img/case-conta-um.jpg" alt="Case Conta Um HandMade UX" width="649" height="617">
+                    </div>
+
+                </div>
+
+            </section>
+             :make-experience 2 -->
+
             <!-- case-2: -->
             <section class="container" id="case-2">
                 
