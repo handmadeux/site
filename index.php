@@ -37,7 +37,15 @@
         <link rel="stylesheet" href="css/owl.carousel.css">
         <link rel="stylesheet" href="css/owl.theme.css">
         <link rel="stylesheet" href="css/main.css">
-        <!-- Google Tag Manager -->
+         <!-- Google Optimize:-->
+        <style>.async-hide { opacity: 0 !important} </style>
+        <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+            h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+            (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+        })(window,document.documentElement,'async-hide','dataLayer',4000,
+        {'GTM-MHPPSR8':true});</script>
+        <!-- :Google Optimize-->
+        <!-- Google Tag Manager: -->
         <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WX3C4Q"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -45,8 +53,7 @@
         j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-WX3C4Q');</script>
-        <!-- End Google Tag Manager -->
-
+        <!-- :Google Tag Manager -->
     </head>
     <body itemscope itemtype="http://schema.org/Organization">
 
