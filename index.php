@@ -129,50 +129,33 @@ E chegamos a uma solução mensurável. Tudo isso em 4 semanas. Tudo isso juntos
                             <h3 class="case-project-name">Estratégia de Transformação Digital &amp; Mobile App</h3>
                             <p class="default-text case-text-description">Que o trânsito é um dos grandes problemas de São Paulo, isso já não é nenhuma novidade.<br/><br/> Mas que tal usar a bike ou transporte público para fugir dele e ainda ganhar prêmios por isso? Essa é a proposta do Leve-me, um app com a assinatura Handmade!</p>
                             <!-- <a href="javascript:void(0);" class="cta" title="Ver Projeto"> VER PROJETO</a> -->
-                            <a class="cta cta-play-video play-inverse" title="Play vídeo do evento" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
+                            <a class="cta cta-play-video play-inverse" title="Play vídeo case Leve-me App" href="javascript:void(0);" id="video-case1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
                         </div>
                     </div>
 
                 </div>
 
-                <!-- modal: -->
-                <div id="animatedModal1">
-
-                    <a href="" class="close-animatedModal" title="fechar detalhes">X</a>
-
-                    <!-- modal content: -->
-                    <div class="modal-content">
-                        <!-- videoframe: -->
-                        <section class="container" id="semana-1">
-                            <div class="row-fluid">
-                            
-                            <div id="video-target-test"></div>
-                            
-                            <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen ></iframe>
-                            </div>
-                        </section>
-                        <!-- :vieoframe -->
-                    </div>
-                    <!-- :modal content -->
+                <div class="row-fluid">
+                    
                 </div>
-                <!-- :modal -->
+
 
             </section>
             <!-- :make-experience -->
 
-            <!-- make-experience 2: 
+            <!-- make-experience 2:--> 
             <section class="container" id="make-experience">
                
                 <div class="row-fluid">
                     
 
                     <div class="col col-md-4">
-                        <div class="description-case">
+                        <div class="description-case pull-right">
                             <p class="default-text case-client-name">ContaUm</p>
                             <h3 class="case-project-name">Como levar gestão financeira aos desbancarizados?</h3>
                             <p class="default-text case-text-description">Esse era o desafio da Conta Um, um cartão pré-pago para as pessoas de baixa renda que nunca tiveram acesso aos termos e serviços bancários.</p>
                             
-                            <a class="cta cta-play-video play-inverse" title="Play vídeo do case da ContaUm" href="#animatedModal1" id="modal-video1">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
+                            <a class="cta cta-play-video play-inverse pull-right" title="Play vídeo do case da ContaUm" href="javascript:void(0);" id="video-case2">Vídeo do projeto <span><i class="arrow-right"></i></span></a>
                         </div>
                     </div>
 
@@ -183,7 +166,7 @@ E chegamos a uma solução mensurável. Tudo isso em 4 semanas. Tudo isso juntos
                 </div>
 
             </section>
-             :make-experience 2 -->
+             <!--:make-experience 2 -->
 
             <!-- case-2: -->
             <section class="container" id="case-2">
@@ -333,25 +316,6 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
             </section>
             <!-- :connections -->
 
-            <!-- modal 2: -->
-            <div id="animatedModal2" class="animateModal">
-
-                <a href="" class="close-animatedModal" title="fechar detalhes">X</a>
-
-                <!-- modal content: -->
-                <div class="modal-content">
-                    <!-- videoframe: -->
-                    <section class="container" id="semana-1">
-                        <div class="row-fluid">
-                        <iframe width="100%" height="600" src="https://www.youtube.com/embed/ux0p3OAnVdE?controls=0&rel=0" frameborder="0" allowfullscreen></iframe>
-                        </div>
-                    </section>
-                    <!-- :vieoframe -->
-                </div>
-                <!-- :modal content -->
-            </div>
-            <!-- :modal 2 -->
-
             <!-- idealizadores: -->
             <section class="container" id="idealizadores">
                
@@ -441,16 +405,45 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                 </div>
             </section>
             <!-- :footer -->
+
+            <div class="video-layer" id="video-layer1">
+
+                <div class="row">
+                    <div class="video-frame">
+                        <span class="close-modal">+</span>
+                        <iframe width="100%" height="430" src="https://www.youtube.com/embed/ux0p3OAnVdE" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-layer" id="video-layer2">
+
+                <div class="row">
+                    <div class="video-frame">
+                        <span class="close-modal">+</span>
+                        <iframe width="100%" height="430" src="https://www.youtube.com/embed/aCrS7JhGQXU" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
             
         </div>
         <!-- :main -->
         <script src="js/jquery.min.js"></script>
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery.form/3.32/jquery.form.js"></script>
-        <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.11.1/jquery.validate.min.js"></script>
-        <script src="js/animatedModal.min.js"></script>
         <script src="js/modernizr.custom.js"></script>
         <script src="js/owl.carousel.min.js"></script>
         <script src="js/app.js"></script>
+        <script>
+            
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+
+
+
+        </script>
         
         <script>
 
@@ -460,57 +453,6 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
             $element = $('.header-nav'),
             className = 'nav-fixed';
 
-        $document.scroll(function() {
-        if ($document.scrollTop() >= 75) {
-            $element.addClass(className);
-            $myBrand.attr('src', 'img/hand-made-ux-marca-negativo.png');
-                } else {
-                    $element.removeClass(className);
-                    $myBrand.attr('src', 'img/hand-made-ux-marca.png');
-                }
-            });
-
-        //Animate Modal
-        $("#modal-video1").animatedModal({
-            modalTarget:'animatedModal1',
-            animatedIn:'zoomIn',
-            animatedOut:'bounceOutDown',
-            color:'#eeeeee',
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                   
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                }
-        });
-        $('#modal-video1').on('click', function () {
-             player.playVideo();
-        });
-
-        $("#modal-video2").animatedModal({
-            modalTarget:'animatedModal2',
-            animatedIn:'zoomIn',
-            animatedOut:'bounceOutDown',
-            color:'#eeeeee',
-                beforeOpen: function() {
-                    console.log("The animation was called");
-                },           
-                afterOpen: function() {
-                    console.log("The animation is completed");
-                }, 
-                beforeClose: function() {
-                    console.log("The animation was called");
-                }, 
-                afterClose: function() {
-                    console.log("The animation is completed");
-                }
-        });  
         // controle carousel
         $('.client-list').owlCarousel({
             loop:true,
@@ -533,7 +475,18 @@ Tudo. E essa foi a tônica das discussões durante o evento realizado dia 10 de 
                     loop:false
                 }
             }
-        })
+        });
+        $( "#video-case1" ).click(function() {
+            $( "#video-layer1" ).removeClass('hide-modal').addClass('show-modal');
+        });
+        $( ".close-modal" ).click(function() {
+            $( "#video-layer1, #video-layer2" ).removeClass('show-modal').addClass('hide-modal');
+            // player.pauseVideo():Void;
+        });
+
+        $( "#video-case2" ).click(function() {
+            $( "#video-layer2" ).removeClass('hide-modal').addClass('show-modal');
+        });
         </script>
     </body>
 </html>

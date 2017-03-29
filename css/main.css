@@ -196,7 +196,7 @@ h1, h2, h3{
 	background: rgba(255, 255, 255, 0.99);
 	height: 75px;
 	position: fixed;
-	z-index: 10;
+	z-index: 12;
 	border-bottom: solid 1px #eeeeee;
 	padding: 1% 2%;
 }
@@ -344,7 +344,7 @@ h1, h2, h3{
 	opacity:0.7
 }
 #make-experience{
-	height: 920px;
+	height: auto;
 	background: #fff;
 }
 #make-experience .head-line p, #make-experience .head-line h2{
@@ -362,6 +362,54 @@ h1, h2, h3{
 #make-experience .description-case{
 	
 	margin: 20px 0 0 0
+}
+
+.video-layer{
+	width: 100%;
+	height: 100%;
+	background: rgba(32, 32, 32, 0.9);
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	animation: ease-in 0.2s all;
+	display: none;
+}
+.video-frame{
+	display: block;
+	width: 800px;
+	height: 500px;
+	margin: 15% auto;
+}
+.close-modal{
+	width: 40px;
+	height: 40px;
+	display: block;
+	background: #eb005b;
+	color: #fff;
+	border-radius: 50%;
+	padding: 4px;
+	text-align: center;
+	cursor: pointer;
+	transition: all ease-out 0.2s;
+	position: absolute;
+	top: 0px;
+	right: 40px;
+	font-size: 24px;
+	line-height: 122%
+}
+.close-modal:hover{
+	-ms-transform: rotate(90deg); 
+    -webkit-transform: rotate(90deg); 
+    transform: rotate(90deg);
+}
+.show-modal{
+	display: block;
+	z-index: 10;
+}
+.hide-modal{
+	display: none;
+	z-index: 0;
 }
 .case-client-name{
 	margin-bottom: 20px;
@@ -500,6 +548,7 @@ h1, h2, h3{
 	background: #ffffff;
 	padding-bottom: 40px
 }
+
 #metodo .head-line p, #metodo .head-line h2{
 	text-align: center;
 } 
@@ -585,137 +634,7 @@ h1, h2, h3{
 	font-size: 14px;
 	text-transform: uppercase;
 }
-/*modal*/
-#animatedModal{
-	background: #999
-}
-.modal-content{
-	padding: 2% 5%;
-}
-.close-animatedModal{
-	width: 40px;
-	height: 40px;
-	display: block;
-	background: #eb005b;
-	color: #fff;
-	border-radius: 50%;
-	padding: 9px;
-	text-align: center;
-	cursor: pointer;
-	margin: 25px auto;
-	transition: all ease-out 0.2s;
-	position: relative;
-}
-.close-animatedModal:hover{
-}
-.time-line{
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	position: relative;
-	height: 1020px;
-}
-.sprint-time-line{
-	display: block;
-	margin: 0 auto;
-	position: relative;
-	float: left;
-}
-.time-line .head-line p, .time-line .head-line h2{
-	background: #fff;
-	display: block;
-	z-index: 3;
-	position: relative;
-	line-height: 160%;
-	text-align: center;
-} 
-.time-line .head-line h2{
-	font-size: 24px;
-}
-.list-card{
-	width: 320px;
-	display: block;
-	position: absolute;
-	background: #dedede;
-	min-height: 360px;
-	left: -357px
-}
-.list-card header{
-	float: left;
-	width: 100%;
-	padding-top: 10px
-}
-.list-card h3{
-	font-family: 'Open Sans', sans-serif;
-	font-size: 22px;
-	color: #eb005b;
-	line-height: 150%;
-	text-align: left;
-	padding: 5px 10px
-}
-.list-card p{
-	padding: 10px;
 
-}
-.conector-cart{
-	width: 50px;
-	border-top: solid 1px #dedede;
-	position: absolute;
-	right: -50px;
-	z-index: 2;
-}
-.conector-cart span{
-	background: #fff;
-	width: 25px;
-	height: 25px;
-	float: left;
-	border: solid 1px #dedede;
-	border-radius: 30px;
-	position:absolute;
-	top: -14px;
-	right: 0;
-}
-.conector-cart span i{
-	background: #eb005b;
-	width: 15px;
-	height: 15px;
-	float: left;
-	border-radius: 30px;
-	position:absolute;
-	top: 4px;
-	right: 4px;
-}
-.card-right{
-	left:38px
-}
-.card-right .conector-cart{
-	right:;
-	left: -50px
-}
-.card-right .conector-cart span{
-	left: 0;
-}
-#card-1{
-	top: 150px
-}
-#card-2{
-	top: 200px
-}
-#card-3{
-	top: 550px
-}
-#card-4{
-	top: 600px
-}
-.center-line{
-	width: 1px;
-	background: #eb005b;
-	float: left;
-	height: 100%;
-	position: absolute;
-	left: 50%;
-	margin: 20px 0
-}
 #play-video-metodo{
 		display: none;
 	}
@@ -950,6 +869,7 @@ h1, h2, h3{
 		width: 100%;
 		float: left
 	}
+
 	.col-md-4{
 		width: 100.3%;
 		float: left

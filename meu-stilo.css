@@ -1,0 +1,14 @@
+/** meu CSS**/
+*{
+	border: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+
+}
+#menu-superior ul li a{
+	color: green;
+	font-size: 32px;
+	font-family: Verdana;
+}
